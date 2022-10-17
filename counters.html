@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <title>Insomnia Buddy's Girl Groups</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="counters.html" class="nav-link active" aria-current="page">Counters</a></li>
+                <li class="nav-item"><a href="artists.html" class="nav-link">Artists</a></li>
+                <li class="nav-item"><a href="history.html" class="nav-link">History</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="container div-labels">
+        <div class="row p-2">
+            <div class="col-sm-3">
+                <label for="artistName" class="form-label">Artist Name</label>
+                <input type="text" class="form-control" id="artistName" placeholder="Search by artist">
+            </div>
+            <div class="col-sm-3">
+                <label for="groupName" class="form-label">Group Name</label>
+                <input type="text" class="form-control" id="groupName" placeholder="Search by group">
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="count1Start" class="form-label">Count 1</label>
+                        <input type="text" class="form-control input-number" id="count1Start" placeholder="Between" maxlength="3">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="count1End" class="form-label">&nbsp;</label>
+                        <input type="text" class="form-control input-number" id="count1End" placeholder="And" maxlength="3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="count2Start" class="form-label">Count 2</label>
+                        <input type="text" class="form-control input-number" id="count2Start" placeholder="Between" maxlength="3">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="count2End" class="form-label">&nbsp;</label>
+                        <input type="text" class="form-control input-number" id="count2End" placeholder="And" maxlength="3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="countTotalStart" class="form-label">Count Total</label>
+                        <input type="text" class="form-control input-number" id="countTotalStart" placeholder="Between" maxlength="3">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="count1End" class="form-label">&nbsp;</label>
+                        <input type="text" class="form-control input-number" id="countTotalEnd" placeholder="And" maxlength="3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-sm-10">
+                <label>Order by:</label>
+                <a href="javascript:void(0);" id="obArtistName">Artist Name</a>
+                <a href="javascript:void(0);" id="obGroupName">Group Name</a>
+                <a href="javascript:void(0);" id="obCounter1">Counter 1</a>
+                <a href="javascript:void(0);" id="obCounter2">Counter 2</a>
+                <a href="javascript:void(0);" id="obCounterTotal">Counter Total</a>
+            </div>
+            <div class="col-sm-2">
+                <div class="float-end">
+                    <button type="button" class="btn btn-success" id="btn-search">Search</button>
+                    <button type="button" class="btn btn-success" id="btn-clear">Clear</button>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive div-table p-2">
+            <table class="table table-bordered table-sm align-middle caption-top">
+                <caption>Search results <span id="last-updated"></span></caption>
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col" class="text-center">Pic</th>
+                        <th scope="col" class="text-center">Name</th>
+                        <th scope="col" class="text-center">Group</th>
+                        <th scope="col" class="text-center">Count 1</th>
+                        <th scope="col" class="text-center">Count 2</th>
+                        <th scope="col" class="text-center">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="counters-tbody">
+                    <!-- <tr class="table-success">
+                        <td class="text-center"><img src="img/YUQI_GIDLE.jpg" alt="YUQI_GIDLE" /></td>
+                        <td>random</td>
+                        <td>data</td>
+                        <td class="text-end">placeholder</td>
+                        <td class="text-end">text</td>
+                        <td class="text-end">text</td>
+                    </tr> -->
+                </tbody>
+                <tfoot id="counters-tfoot">
+                    <!-- <tr class="table-dark">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="text-end">placeholder</td>
+                        <td class="text-end">text</td>
+                        <td class="text-end">text</td>
+                    </tr> -->
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/counters.js"></script>
+    <script src="js/processCounter.js"></script>
+</body>
+
+</html>

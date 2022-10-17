@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <title>Insomnia Buddy's Girl Groups</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="counters.html" class="nav-link">Counters</a></li>
+                <li class="nav-item"><a href="artists.html" class="nav-link">Artists</a></li>
+                <li class="nav-item"><a href="history.html" class="nav-link active" aria-current="page">History</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="container div-labels">
+        <div class="row p-2">
+            <div class="col-sm-4">
+                <label for="artistName" class="form-label">Artist Name</label>
+                <input type="text" class="form-control" id="artistName" placeholder="Search by artist">
+            </div>
+            <div class="col-sm-4">
+                <label for="groupName" class="form-label">Group Name</label>
+                <input type="text" class="form-control" id="groupName" placeholder="Search by group">
+            </div>
+            <div class="col-sm-4">
+                <label for="person" class="form-label">By Person</label>
+                <select class="form-select" id="person">
+                    <option value="-1">All</option>
+                    <option value="1">Person 1</option>
+                    <option value="2">Person 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="perDateStart" class="form-label">Date</label>
+                        <input type="text" class="form-control input-number" id="perDateStart" placeholder="Between">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="perDateEnd" class="form-label">&nbsp;</label>
+                        <input type="text" class="form-control input-number" id="perDateEnd" placeholder="And">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="perHourStart" class="form-label">Hour</label>
+                        <input type="text" class="form-control input-number" id="perHourStart" placeholder="Between">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="perHourEnd" class="form-label">&nbsp;</label>
+                        <input type="text" class="form-control input-number" id="perHourEnd" placeholder="And">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <label for="gmt" class="form-label">By Person</label>
+                <select class="form-select" id="gmt">
+                    <option value="1">GMT -5</option>
+                    <option value="2">GMT +2</option>
+                </select>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-sm-10">
+                <label>Order by:</label>
+                <a href="javascript:void(0);" id="obArtistName">Artist Name</a>
+                <a href="javascript:void(0);" id="obGroupName">Group Name</a>
+                <a href="javascript:void(0);" id="obPerDate">Date</a>
+                <a href="javascript:void(0);" id="obPerson">Person</a>
+            </div>
+            <div class="col-sm-2">
+                <div class="float-end">
+                    <button type="button" class="btn btn-success" id="btn-search">Search</button>
+                    <button type="button" class="btn btn-success" id="btn-clear">Clear</button>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive div-table p-2">
+            <table class="table table-bordered table-sm align-middle caption-top table-warning table-striped">
+                <caption>Search results <span id="last-updated"></span></caption>
+                <thead>
+                    <tr>
+                        <th scope="col" class="text-center">No.</th>
+                        <th scope="col" class="text-center">Pic</th>
+                        <th scope="col" class="text-center">Name</th>
+                        <th scope="col" class="text-center">Group</th>
+                        <th scope="col" class="text-center">Date (GMT -5)</th>
+                        <th scope="col" class="text-center">Hour (GMT -5)</th>
+                        <th scope="col" class="text-center">Date (GMT +2)</th>
+                        <th scope="col" class="text-center">Hour (GMT +2)</th>
+                        <th scope="col" class="text-center">Person</th>
+                    </tr>
+                </thead>
+                <tbody id="history-tbody">
+                    <tr>
+                        <td>1.</td>
+                        <td class="text-center"><img src="img/YUQI_GIDLE.jpg" alt="YUQI_GIDLE" /></td>
+                        <td>random</td>
+                        <td>data</td>
+                        <td>placeholder</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                        <td>text</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/history.js"></script>
+    <script src="js/processHistory.js"></script>
+</body>
+
+</html>

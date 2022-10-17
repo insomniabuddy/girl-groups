@@ -1,0 +1,32 @@
+.div-table img {
+    width: 60px;
+    height: 60px;
+}
+
+.div-table caption,
+.div-table tfoot {
+    font-weight: bold;
+}
+
+.div-table caption span {
+    font-weight: lighter;
+    font-style: italic;
+    color: darkgray;
+}
+
+.div-labels label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.div-labels a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.form-control {
+    font-size: 0.8rem;
+}
