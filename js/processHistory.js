@@ -23,16 +23,27 @@ $(function () {
     IdolHistory.populate();
 });
 
+IdolHistory.calculateGap = function (prevDate, currDate) {
+    var prevArr = prevDate.split('_');
+    var currArr = currDate.split('_');
+    return IdolCommon.dateDifference(prevArr[0], prevArr[1], currArr[0], currArr[1]);
+};
+
 IdolHistory.populate = function () {
     if (!currentHistory || currentHistory.length == 0) {
         currentHistory = historyDates;
     }
 
     var $tbody = $('#history-tbody');
+    var $tfoot = $('#history-tfoot');
+
+    var total1 = 0, total2 = 0, total = 0;
 
     var string = '';
+    var prevDate = '';
+    var first = true;
     currentHistory.forEach(function (elem) {
-        string += '<tr>';
+        string += '<tr class="table-' + (elem.person == 1 ? 'info' : 'success') + '">';
         string += '<td class="text-end">' + elem.historyId + '.</td>';
         string += '<td class="text-center"><img src="img/' + elem.imageName + '.jpg" alt="' + elem.imageName + '" /></td>';
         string += '<td>' + elem.artistName + '</td>';
@@ -42,9 +53,24 @@ IdolHistory.populate = function () {
         string += '<td class="text-center">' + elem.gerDateStr + '</td>';
         string += '<td class="text-center">' + elem.gerHourStr + '</td>';
         string += '<td class="text-center">' + elem.person + '</td>';
+
+        if (first) {
+            first = false;
+            string += '<td class="text-center">---</td>';
+        } else {
+            var gap = IdolHistory.calculateGap(prevDate, elem.perDate + '_' + elem.perHour);
+            string += '<td class="text-center">' + gap + '</td>';
+        }
+
+        prevDate = elem.perDate + '_' + elem.perHour;
+
+        total1 = elem.person == 1 ? total1 + 1 : total1;
+        total2 = elem.person == 2 ? total2 + 1 : total2;
+        total++;
     });
 
     $tbody.html(string);
+    $tfoot.html('<tr class="table-dark"><td colspan="6"></td><td colspan="4" class="text-end">Person1 : ' + total1 + '&nbsp;&nbsp;&nbsp;Person2 : ' + total2 + '&nbsp;&nbsp;&nbsp;Total : ' + total + '</td></tr>');
 };
 
 IdolHistory.clear = function () {

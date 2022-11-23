@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <label for="gmt" class="form-label">By Person</label>
+                <label for="gmt" class="form-label">By Timezone</label>
                 <select class="form-select" id="gmt">
                     <option value="1">GMT -5</option>
                     <option value="2">GMT +2</option>
@@ -89,10 +89,10 @@
             </div>
         </div>
         <div class="table-responsive div-table p-2">
-            <table class="table table-bordered table-sm align-middle caption-top table-warning table-striped">
+            <table class="table table-bordered table-sm align-middle caption-top table-warning">
                 <caption>Search results <span id="last-updated"></span></caption>
                 <thead>
-                    <tr>
+                    <tr class="table-dark">
                         <th scope="col" class="text-center">No.</th>
                         <th scope="col" class="text-center">Pic</th>
                         <th scope="col" class="text-center">Name</th>
@@ -102,21 +102,13 @@
                         <th scope="col" class="text-center">Date (GMT +2)</th>
                         <th scope="col" class="text-center">Hour (GMT +2)</th>
                         <th scope="col" class="text-center">Person</th>
+                        <th scope="col" class="text-center">Gap</th>
                     </tr>
                 </thead>
                 <tbody id="history-tbody">
-                    <tr>
-                        <td>1.</td>
-                        <td class="text-center"><img src="img/YUQI_GIDLE.jpg" alt="YUQI_GIDLE" /></td>
-                        <td>random</td>
-                        <td>data</td>
-                        <td>placeholder</td>
-                        <td>text</td>
-                        <td>text</td>
-                        <td>text</td>
-                        <td>text</td>
-                    </tr>
                 </tbody>
+                <tfoot id="history-tfoot">
+                </tfoot>
             </table>
         </div>
     </div>

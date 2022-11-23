@@ -53,14 +53,14 @@ IdolArtists.populate = function () {
 
     var string = '';
     currentArtists.forEach(function (elem) {
-        string += '<tr>';
+        string += '<tr class="table-warning">';
         string += '<td class="text-center"><img src="img/' + elem.imageName + '.jpg" alt="' + elem.imageName + '" /></td>';
         string += '<td>' + elem.artistName + '</td>';
         string += '<td>' + elem.groupName + '</td>';
         string += '<td>' + elem.birthDateStr + '</td>';
         string += '<td class="text-center">' + elem.age + '</td>';
         string += '<td class="text-center">' + elem.zodiac + IdolCommon.getZodiacSign(elem.zodiacId) + '</td>';
-        string += '<td class="text-center">' + elem.chineseZodiac + '</td>';
+        string += '<td class="text-center">' + elem.chineseZodiac + IdolCommon.getChineseZodiacSign(elem.chineseZodiacId) + '</td>';
         string += '<td>' + elem.agency + '</td>';
         string += '<td class="text-center">' + elem.bloodType + '</td>';
         string += '<td class="text-center">' + elem.heightStr + ' cm</td>';
