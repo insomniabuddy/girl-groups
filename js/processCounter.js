@@ -46,6 +46,8 @@ IdolCounters.populate = function () {
         string += '<td class="text-end">' + IdolCommon.getStars(elem.count1) + '&nbsp;&nbsp;&nbsp;' + '<b>' + elem.count1 + '</b>' + '</td>';
         string += '<td class="text-end">' + IdolCommon.getStars(elem.count2) + '&nbsp;&nbsp;&nbsp;' + '<b>' + elem.count2 + '</b>' + '</td>';
         string += '<td class="text-end">' + IdolCommon.getStars(elem.countTotal) + '&nbsp;&nbsp;&nbsp;' + '<b>' + elem.countTotal + '</b>' + '</td>';
+        string += '<td class="text-center last-date">' + IdolCommon.getBothDates(elem.perDateStr, elem.perHourStr, elem.gerDateStr, elem.gerHourStr) + '</td>';
+        string += '<td class="text-center last-date">' + IdolCommon.getTimePassed(elem.perDate, elem.perHour, elem.gerDate, elem.getHour) + '</td>';
         string += '</tr>';
 
         total1 += elem.count1;
@@ -55,7 +57,7 @@ IdolCounters.populate = function () {
 
     $tbody.html(string);
 
-    $tfoot.html('<tr class="table-dark"><td></td><td></td><td></td><td class="text-end">' + total1 + '</td><td class="text-end">' + total2 + '</td><td class="text-end">' + total + '</td></tr>');
+    $tfoot.html('<tr class="table-dark"><td></td><td></td><td></td><td class="text-end">' + total1 + '</td><td class="text-end">' + total2 + '</td><td class="text-end">' + total + '</td><td></td><td></td></tr>');
 };
 
 IdolCounters.clear = function () {

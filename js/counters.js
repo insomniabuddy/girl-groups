@@ -1,215 +1,215 @@
 const counter = [
-    {"count1":1,"count2":1,"groupName":"Momoland","imageName":"AHIN_MOMOLAND","artistName":"Ahin","countTotal":2}
-    ,{"count1":3,"count2":0,"groupName":"Everglow","imageName":"AISHA_EVERGLOW","artistName":"Aisha","countTotal":3}
-    ,{"count1":1,"count2":0,"groupName":"ily:1","imageName":"ARA_ILY1","artistName":"Ara","countTotal":1}
-    ,{"count1":18,"count2":13,"groupName":"Oh My Girl","imageName":"ARIN_OHMYGIRL","artistName":"Arin","countTotal":31}
-    ,{"count1":3,"count2":0,"groupName":"NMIXX","imageName":"BAE_NMIXX","artistName":"Bae","countTotal":3}
-    ,{"count1":0,"count2":1,"groupName":"Kep1er","imageName":"BAHIYYIH_KEP1ER","artistName":"Bahiyyih","countTotal":1}
-    ,{"count1":7,"count2":0,"groupName":"CLASS:y","imageName":"BOEUN_CLASSY","artistName":"Boeun","countTotal":7}
-    ,{"count1":3,"count2":0,"groupName":"Dream Note","imageName":"BONI_DREAMNOTE","artistName":"Boni","countTotal":3}
-    ,{"count1":6,"count2":3,"groupName":"Cherry Bullet","imageName":"BORA_CHERRYBULLET","artistName":"Bora","countTotal":9}
-    ,{"count1":4,"count2":0,"groupName":"Kep1er","imageName":"CHAEHYUN_KEP1ER","artistName":"Chaehyun","countTotal":4}
-    ,{"count1":21,"count2":2,"groupName":"Purple Kiss","imageName":"CHAEIN_PURPLEKISS","artistName":"Chaein","countTotal":23}
-    ,{"count1":1,"count2":0,"groupName":"ichillin","imageName":"CHAERIN_ICHILLIN","artistName":"Chaerin","countTotal":1}
-    ,{"count1":5,"count2":1,"groupName":"ITZY","imageName":"CHAERYEONG_ITZY","artistName":"Chaeryeong","countTotal":6}
-    ,{"count1":6,"count2":1,"groupName":"cignature","imageName":"CHAESOL_CIGNATURE","artistName":"Chaesol","countTotal":7}
-    ,{"count1":10,"count2":5,"groupName":"LE SSERAFIM","imageName":"CHAEWON_LESSERAFIM","artistName":"Chaewon","countTotal":15}
-    ,{"count1":10,"count2":4,"groupName":"CLASS:y","imageName":"CHAEWON_CLASSY","artistName":"Chaewon","countTotal":14}
-    ,{"count1":1,"count2":0,"groupName":"tripleS","imageName":"CHAEYEON_TRIPLES","artistName":"Chaeyeon","countTotal":1}
-    ,{"count1":3,"count2":1,"groupName":"soloist","imageName":"CHAEYEON_SOLOIST","artistName":"Chaeyeon","countTotal":4}
-    ,{"count1":5,"count2":0,"groupName":"fromis_9","imageName":"CHAEYOUNG_FROMIS9","artistName":"Chaeyoung","countTotal":5}
-    ,{"count1":1,"count2":0,"groupName":"Lapillus","imageName":"CHANTY_LAPILLUS","artistName":"Chanty","countTotal":1}
-    ,{"count1":5,"count2":0,"groupName":"LOONA","imageName":"CHOERRY_LOONA","artistName":"Choerry","countTotal":5}
-    ,{"count1":1,"count2":0,"groupName":"ichillin","imageName":"CHOWON_ICHILLIN","artistName":"Chowon","countTotal":1}
-    ,{"count1":1,"count2":0,"groupName":"Lightsum","imageName":"CHOWON_LIGHTSUM","artistName":"Chowon","countTotal":1}
-    ,{"count1":0,"count2":1,"groupName":"bugAboo","imageName":"CHOYEON_BUGABOO","artistName":"Choyeon","countTotal":1}
-    ,{"count1":2,"count2":0,"groupName":"soloist","imageName":"CHUNGHA_SOLOIST","artistName":"Chungha","countTotal":2}
-    ,{"count1":3,"count2":0,"groupName":"LOONA","imageName":"CHUU_LOONA","artistName":"Chuu","countTotal":3}
-    ,{"count1":3,"count2":1,"groupName":"Rocket Punch","imageName":"DAHYUN_ROCKETPUNCH","artistName":"Dahyun","countTotal":4}
-    ,{"count1":4,"count2":1,"groupName":"Pixy","imageName":"DAJEONG_PIXY","artistName":"Dajeong","countTotal":5}
-    ,{"count1":2,"count2":4,"groupName":"NewJeans","imageName":"DANIELLE_NEWJEANS","artistName":"Danielle","countTotal":6}
-    ,{"count1":23,"count2":17,"groupName":"Kep1er","imageName":"DAYEON_KEP1ER","artistName":"Dayeon","countTotal":40}
-    ,{"count1":6,"count2":2,"groupName":"Pixy","imageName":"DIA_PIXY","artistName":"Dia","countTotal":8}
-    ,{"count1":11,"count2":0,"groupName":"Purple Kiss","imageName":"DOSIE_PURPLEKISS","artistName":"Dosie","countTotal":11}
-    ,{"count1":3,"count2":1,"groupName":"CSR","imageName":"DUNA_CSR","artistName":"Duna","countTotal":4}
-    ,{"count1":1,"count2":0,"groupName":"Everglow","imageName":"EU_EVERGLOW","artistName":"E:U","countTotal":1}
-    ,{"count1":2,"count2":1,"groupName":"ichillin","imageName":"EJI_ICHILLIN","artistName":"E.JI","countTotal":3}
-    ,{"count1":1,"count2":0,"groupName":"ily:1","imageName":"ELVA_ILY1","artistName":"Elva","countTotal":1}
-    ,{"count1":13,"count2":2,"groupName":"soloist","imageName":"EUNBI_SOLOIST","artistName":"Eunbi","countTotal":15}
-    ,{"count1":6,"count2":1,"groupName":"LE SSERAFIM","imageName":"EUNCHAE_LESSERAFIM","artistName":"Eunchae","countTotal":7}
-    ,{"count1":1,"count2":0,"groupName":"bugAboo","imageName":"EUNCHAE_BUGABOO","artistName":"Eunchae","countTotal":1}
-    ,{"count1":16,"count2":5,"groupName":"VIVIZ","imageName":"EUNHA_VIVIZ","artistName":"Eunha","countTotal":21}
-    ,{"count1":4,"count2":0,"groupName":"Dream Note","imageName":"EUNJO_DREAMNOTE","artistName":"Eunjo","countTotal":4}
-    ,{"count1":1,"count2":0,"groupName":"WJSN","imageName":"EUNSEO_WJSN","artistName":"Eunseo","countTotal":1}
-    ,{"count1":2,"count2":2,"groupName":"IVE","imageName":"GAEUL_IVE","artistName":"Gaeul","countTotal":4}
-    ,{"count1":2,"count2":12,"groupName":"Dreamcatcher","imageName":"GAHYEON_DREAMCATCHER","artistName":"Gahyeon","countTotal":14}
-    ,{"count1":1,"count2":4,"groupName":"LE SSERAFIM","imageName":"GARAM_LESSERAFIM","artistName":"Garam","countTotal":5}
-    ,{"count1":3,"count2":0,"groupName":"CSR","imageName":"GEUMHEE_CSR","artistName":"Geumhee","countTotal":3}
-    ,{"count1":1,"count2":0,"groupName":"aespa","imageName":"GISELLE_AESPA","artistName":"Giselle","countTotal":1}
-    ,{"count1":2,"count2":0,"groupName":"Purple Kiss","imageName":"GOEUN_PURPLEKISS","artistName":"Goeun","countTotal":2}
-    ,{"count1":3,"count2":0,"groupName":"LOONA","imageName":"GOWON_LOONA","artistName":"Gowon","countTotal":3}
-    ,{"count1":4,"count2":1,"groupName":"NewJeans","imageName":"HAERIN_NEWJEANS","artistName":"Haerin","countTotal":5}
-    ,{"count1":2,"count2":1,"groupName":"Lapillus","imageName":"HAEUN_LAPILLUS","artistName":"Haeun","countTotal":3}
-    ,{"count1":7,"count2":2,"groupName":"NMIXX","imageName":"HAEWON_NMIXX","artistName":"Haewon","countTotal":9}
-    ,{"count1":10,"count2":4,"groupName":"Dreamcatcher","imageName":"HANDONG_DREAMCATCHER","artistName":"Handong","countTotal":14}
-    ,{"count1":2,"count2":0,"groupName":"NewJeans","imageName":"HANNI_NEWJEANS","artistName":"Hanni","countTotal":2}
-    ,{"count1":21,"count2":5,"groupName":"Billlie","imageName":"HARAM_BILLLIE","artistName":"Haram","countTotal":26}
-    ,{"count1":2,"count2":0,"groupName":"Billlie","imageName":"HARUNA_BILLLIE","artistName":"Haruna","countTotal":2}
-    ,{"count1":11,"count2":0,"groupName":"LOONA","imageName":"HASEUL_LOONA","artistName":"Haseul","countTotal":11}
-    ,{"count1":14,"count2":7,"groupName":"LOONA","imageName":"HEEJIN_LOONA","artistName":"Heejin","countTotal":21}
-    ,{"count1":2,"count2":0,"groupName":"Kep1er","imageName":"HIKARU_KEP1ER","artistName":"Hikaru","countTotal":2}
-    ,{"count1":1,"count2":0,"groupName":"Lightsum","imageName":"HINA_LIGHTSUM","artistName":"Hina","countTotal":1}
-    ,{"count1":2,"count2":0,"groupName":"H1-KEY","imageName":"HWISEO_H1KEY","artistName":"Hwiseo","countTotal":2}
-    ,{"count1":2,"count2":0,"groupName":"NewJeans","imageName":"HYEIN_NEWJEANS","artistName":"Hyein","countTotal":2}
-    ,{"count1":6,"count2":0,"groupName":"CLASS:y","imageName":"HYEJU_CLASSY","artistName":"Hyeju","countTotal":6}
-    ,{"count1":2,"count2":1,"groupName":"soloist","imageName":"HYEWON_SOLOIST","artistName":"Hyewon","countTotal":3}
-    ,{"count1":11,"count2":4,"groupName":"Oh My Girl","imageName":"HYOJUNG_OHMYGIRL","artistName":"Hyojung","countTotal":15}
-    ,{"count1":14,"count2":19,"groupName":"TRI.BE","imageName":"HYUNBIN_TRIBE","artistName":"Hyunbin","countTotal":33}
-    ,{"count1":7,"count2":0,"groupName":"CLASS:y","imageName":"HYUNGSEO_CLASSY","artistName":"Hyungseo","countTotal":7}
-    ,{"count1":4,"count2":3,"groupName":"LOONA","imageName":"HYUNJIN_LOONA","artistName":"Hyunjin","countTotal":7}
-    ,{"count1":1,"count2":0,"groupName":"Purple Kiss","imageName":"IREH_PURPLEKISS","artistName":"Ireh","countTotal":1}
-    ,{"count1":25,"count2":24,"groupName":"Stayc","imageName":"ISA_STAYC","artistName":"ISA","countTotal":49}
-    ,{"count1":15,"count2":2,"groupName":"Stayc","imageName":"J_STAYC","artistName":"J","countTotal":17}
-    ,{"count1":7,"count2":0,"groupName":"ichillin","imageName":"JACKIE_ICHILLIN","artistName":"Jackie","countTotal":7}
-    ,{"count1":3,"count2":0,"groupName":"Weeekly","imageName":"JAEHEE_WEEEKLY","artistName":"Jaehee","countTotal":3}
-    ,{"count1":1,"count2":1,"groupName":"cignature","imageName":"JEEWON_CIGNATURE","artistName":"Jeewon","countTotal":2}
-    ,{"count1":2,"count2":10,"groupName":"Blackpink","imageName":"JENNIE_BLACKPINK","artistName":"Jennie","countTotal":12}
-    ,{"count1":2,"count2":0,"groupName":"mimiirose","imageName":"JIA_MIMIIROSE","artistName":"Jia","countTotal":2}
-    ,{"count1":2,"count2":0,"groupName":"Purple Kiss","imageName":"JIEUN_PURPLEKISS","artistName":"Jieun","countTotal":2}
-    ,{"count1":3,"count2":6,"groupName":"Weeekly","imageName":"JIHAN_WEEEKLY","artistName":"Jihan","countTotal":9}
-    ,{"count1":3,"count2":1,"groupName":"fromis_9","imageName":"JIHEON_FROMIS9","artistName":"Jiheon","countTotal":4}
-    ,{"count1":1,"count2":1,"groupName":"Oh My Girl","imageName":"JIHO_OHMYGIRL","artistName":"Jiho","countTotal":2}
-    ,{"count1":0,"count2":1,"groupName":"Twice","imageName":"JIHYO_TWICE","artistName":"Jihyo","countTotal":1}
-    ,{"count1":18,"count2":6,"groupName":"CLASS:y","imageName":"JIMIN_CLASSY","artistName":"Jimin","countTotal":24}
-    ,{"count1":1,"count2":1,"groupName":"TRI.BE","imageName":"JINHA_TRIBE","artistName":"Jinha","countTotal":2}
-    ,{"count1":8,"count2":1,"groupName":"NMIXX","imageName":"JINNI_NMIXX","artistName":"Jinni","countTotal":9}
-    ,{"count1":8,"count2":2,"groupName":"Secret Number","imageName":"JINNY_SECRETNUMBER","artistName":"Jinny","countTotal":10}
-    ,{"count1":5,"count2":6,"groupName":"LOONA","imageName":"JINSOUL_LOONA","artistName":"Jinsoul","countTotal":11}
-    ,{"count1":13,"count2":3,"groupName":"Blackpink","imageName":"JISOO_BLACKPINK","artistName":"Jisoo","countTotal":16}
-    ,{"count1":2,"count2":0,"groupName":"fromis_9","imageName":"JISUN_FROMIS9","artistName":"Jisun","countTotal":2}
-    ,{"count1":10,"count2":3,"groupName":"Dreamcatcher","imageName":"JIU_DREAMCATCHER","artistName":"Jiu","countTotal":13}
-    ,{"count1":1,"count2":0,"groupName":"Cherry Bullet","imageName":"JIWON_CHERRYBULLET","artistName":"Jiwon","countTotal":1}
-    ,{"count1":1,"count2":0,"groupName":"fromis_9","imageName":"JIWON_FROMIS9","artistName":"Jiwon","countTotal":1}
-    ,{"count1":3,"count2":0,"groupName":"NMIXX","imageName":"JIWOO_NMIXX","artistName":"Jiwoo","countTotal":3}
-    ,{"count1":1,"count2":0,"groupName":"ichillin","imageName":"JIYOON_ICHILLIN","artistName":"Jiyoon","countTotal":1}
-    ,{"count1":1,"count2":0,"groupName":"Weeekly","imageName":"JIYOON_WEEEKLY","artistName":"Jiyoon","countTotal":1}
-    ,{"count1":1,"count2":1,"groupName":"Momoland","imageName":"JOOE_MOMOLAND","artistName":"Jooe","countTotal":2}
-    ,{"count1":2,"count2":0,"groupName":"Lightsum","imageName":"JUHYEON_LIGHTSUM","artistName":"Juhyeon","countTotal":2}
-    ,{"count1":4,"count2":1,"groupName":"Rocket Punch","imageName":"JURI_ROCKETPUNCH","artistName":"Juri","countTotal":5}
-    ,{"count1":3,"count2":4,"groupName":"aespa","imageName":"KARINA_AESPA","artistName":"Karina","countTotal":7}
-    ,{"count1":7,"count2":1,"groupName":"LE SSERAFIM","imageName":"KAZUHA_LESSERAFIM","artistName":"Kazuha","countTotal":8}
-    ,{"count1":1,"count2":3,"groupName":"TRI.BE","imageName":"KELLY_TRIBE","artistName":"Kelly","countTotal":4}
-    ,{"count1":6,"count2":0,"groupName":"LOONA","imageName":"KIMLIP_LOONA","artistName":"KimLip","countTotal":6}
-    ,{"count1":5,"count2":3,"groupName":"NMIXX","imageName":"KYUJIN_NMIXX","artistName":"Kyujin","countTotal":8}
-    ,{"count1":2,"count2":0,"groupName":"Dream Note","imageName":"LARA_DREAMNOTE","artistName":"Lara","countTotal":2}
-    ,{"count1":8,"count2":1,"groupName":"IVE","imageName":"LEESEO_IVE","artistName":"Leeseo","countTotal":9}
-    ,{"count1":1,"count2":2,"groupName":"ITZY","imageName":"LIA_ITZY","artistName":"Lia","countTotal":3}
-    ,{"count1":3,"count2":0,"groupName":"Blackpink","imageName":"LISA_BLACKPINK","artistName":"Lisa","countTotal":3}
-    ,{"count1":2,"count2":3,"groupName":"IVE","imageName":"LIZ_IVE","artistName":"Liz","countTotal":5}
-    ,{"count1":1,"count2":2,"groupName":"Pixy","imageName":"LOLA_PIXY","artistName":"Lola","countTotal":3}
-    ,{"count1":1,"count2":1,"groupName":"woo!ah!","imageName":"LUCY_WOOAH","artistName":"Lucy","countTotal":2}
-    ,{"count1":2,"count2":0,"groupName":"WJSN","imageName":"LUDA_WJSN","artistName":"Luda","countTotal":2}
-    ,{"count1":0,"count2":1,"groupName":"Everglow","imageName":"MIA_EVERGLOW","artistName":"Mia","countTotal":1}
-    ,{"count1":3,"count2":2,"groupName":"NewJeans","imageName":"MINJI_NEWJEANS","artistName":"Minji","countTotal":5}
-    ,{"count1":2,"count2":0,"groupName":"soloist","imageName":"MINJU_SOLOIST","artistName":"Minju","countTotal":2}
-    ,{"count1":1,"count2":0,"groupName":"(g)i-dle","imageName":"MINNIE_GIDLE","artistName":"Minnie","countTotal":1}
-    ,{"count1":3,"count2":0,"groupName":"woo!ah!","imageName":"MINSEO_WOOAH","artistName":"Minseo","countTotal":3}
-    ,{"count1":1,"count2":1,"groupName":"TRI.BE","imageName":"MIRE_TRIBE","artistName":"Mire","countTotal":2}
-    ,{"count1":6,"count2":2,"groupName":"Dream Note","imageName":"MISO_DREAMNOTE","artistName":"Miso","countTotal":8}
-    ,{"count1":16,"count2":7,"groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","artistName":"Miyeon","countTotal":23}
-    ,{"count1":0,"count2":3,"groupName":"Twice","imageName":"MOMO_TWICE","artistName":"Momo","countTotal":3}
-    ,{"count1":6,"count2":6,"groupName":"Weeekly","imageName":"MONDAY_WEEEKLY","artistName":"Monday","countTotal":12}
-    ,{"count1":2,"count2":0,"groupName":"Billlie","imageName":"MOONSUA_BILLLIE","artistName":"Moon Sua","countTotal":2}
-    ,{"count1":1,"count2":0,"groupName":"tripleS","imageName":"NAKYOUNG_TRIPLES","artistName":"Nakyoung","countTotal":1}
-    ,{"count1":4,"count2":2,"groupName":"woo!ah!","imageName":"NANA_WOOAH","artistName":"Nana","countTotal":6}
-    ,{"count1":3,"count2":2,"groupName":"Momoland","imageName":"NANCY_MOMOLAND","artistName":"Nancy","countTotal":5}
-    ,{"count1":2,"count2":0,"groupName":"Twice","imageName":"NAYEON_TWICE","artistName":"Nayeon","countTotal":2}
-    ,{"count1":5,"count2":0,"groupName":"Lightsum","imageName":"NAYOUNG_LIGHTSUM","artistName":"Nayoung","countTotal":5}
-    ,{"count1":0,"count2":1,"groupName":"ily:1","imageName":"NAYU_ILY1","artistName":"Nayu","countTotal":1}
-    ,{"count1":2,"count2":1,"groupName":"aespa","imageName":"NINGNING_AESPA","artistName":"Ning Ning","countTotal":3}
-    ,{"count1":3,"count2":0,"groupName":"LOONA","imageName":"OLIVIAHYE_LOONA","artistName":"Olivia Hye","countTotal":3}
-    ,{"count1":7,"count2":2,"groupName":"IVE","imageName":"REI_IVE","artistName":"Rei","countTotal":9}
-    ,{"count1":2,"count2":0,"groupName":"H1-KEY","imageName":"RIINA_H1KEY","artistName":"Riina","countTotal":2}
-    ,{"count1":1,"count2":0,"groupName":"ily:1","imageName":"RIRIKA_ILY1","artistName":"Ririka","countTotal":1}
-    ,{"count1":5,"count2":0,"groupName":"CLASS:y","imageName":"RIWON_CLASSY","artistName":"Riwon","countTotal":5}
-    ,{"count1":6,"count2":13,"groupName":"ily:1","imageName":"RONA_ILY1","artistName":"Rona","countTotal":19}
-    ,{"count1":0,"count2":1,"groupName":"Blackpink","imageName":"ROSE_BLACKPINK","artistName":"Rose","countTotal":1}
-    ,{"count1":0,"count2":1,"groupName":"ITZY","imageName":"RYUJIN_ITZY","artistName":"Ryujin","countTotal":1}
-    ,{"count1":1,"count2":3,"groupName":"fromis_9","imageName":"SAEROM_FROMIS9","artistName":"Saerom","countTotal":4}
-    ,{"count1":0,"count2":1,"groupName":"LE SSERAFIM","imageName":"SAKURA_LESSERAFIM","artistName":"Sakura","countTotal":1}
-    ,{"count1":3,"count2":4,"groupName":"Twice","imageName":"SANA_TWICE","artistName":"Sana","countTotal":7}
-    ,{"count1":10,"count2":2,"groupName":"Lightsum","imageName":"SANGAH_LIGHTSUM","artistName":"Sangah","countTotal":12}
-    ,{"count1":3,"count2":0,"groupName":"Stayc","imageName":"SEEUN_STAYC","artistName":"Seeun","countTotal":3}
-    ,{"count1":1,"count2":0,"groupName":"H1-KEY","imageName":"SEOI_H1KEY","artistName":"Seoi","countTotal":1}
-    ,{"count1":1,"count2":0,"groupName":"WJSN","imageName":"SEOLA_WJSN","artistName":"Seola","countTotal":1}
-    ,{"count1":2,"count2":1,"groupName":"CLASS:y","imageName":"SEONYU_CLASSY","artistName":"Seonyu","countTotal":3}
-    ,{"count1":1,"count2":0,"groupName":"fromis_9","imageName":"SEOYEON_FROMIS9","artistName":"Seoyeon","countTotal":1}
-    ,{"count1":1,"count2":2,"groupName":"Lapillus","imageName":"SHANA_LAPILLUS","artistName":"Shana","countTotal":3}
-    ,{"count1":15,"count2":12,"groupName":"Billlie","imageName":"SHEON_BILLLIE","artistName":"Sheon","countTotal":27}
-    ,{"count1":4,"count2":1,"groupName":"(g)i-dle","imageName":"SHUHUA_GIDLE","artistName":"Shuhua","countTotal":5}
-    ,{"count1":9,"count2":3,"groupName":"Stayc","imageName":"SIEUN_STAYC","artistName":"Sieun","countTotal":12}
-    ,{"count1":3,"count2":0,"groupName":"Everglow","imageName":"SIHYEON_EVERGLOW","artistName":"Sihyeon","countTotal":3}
-    ,{"count1":8,"count2":0,"groupName":"CSR","imageName":"SIHYEON_CSR","artistName":"Sihyeon","countTotal":8}
-    ,{"count1":41,"count2":10,"groupName":"VIVIZ","imageName":"SINB_VIVIZ","artistName":"SinB","countTotal":51}
-    ,{"count1":2,"count2":0,"groupName":"Dreamcatcher","imageName":"SIYEON_DREAMCATCHER","artistName":"Siyeon","countTotal":2}
-    ,{"count1":2,"count2":2,"groupName":"Billlie","imageName":"SIYOON_BILLLIE","artistName":"Siyoon","countTotal":4}
-    ,{"count1":24,"count2":9,"groupName":"Weeekly","imageName":"SOEUN_WEEEKLY","artistName":"Soeun","countTotal":33}
-    ,{"count1":1,"count2":0,"groupName":"ichillin","imageName":"SOHEE_ICHILLIN","artistName":"Sohee","countTotal":1}
-    ,{"count1":0,"count2":1,"groupName":"Alice","imageName":"SOHEE_ALICE","artistName":"Sohee","countTotal":1}
-    ,{"count1":3,"count2":0,"groupName":"soloist","imageName":"SOMI_SOLOIST","artistName":"Somi","countTotal":3}
-    ,{"count1":2,"count2":0,"groupName":"Secret Number","imageName":"SOODAM_SECRETNUMBER","artistName":"Soodam","countTotal":2}
-    ,{"count1":3,"count2":0,"groupName":"Weeekly","imageName":"SOOJIN_WEEEKLY","artistName":"Soojin","countTotal":3}
-    ,{"count1":2,"count2":1,"groupName":"woo!ah!","imageName":"SORA_WOOAH","artistName":"Sora","countTotal":3}
-    ,{"count1":2,"count2":6,"groupName":"Gfriend","imageName":"SOWON_GFRIEND","artistName":"Sowon","countTotal":8}
-    ,{"count1":1,"count2":0,"groupName":"(g)i-dle","imageName":"SOYEON_GIDLE","artistName":"Soyeon","countTotal":1}
-    ,{"count1":2,"count2":0,"groupName":"Pixy","imageName":"SUA_PIXY","artistName":"Sua","countTotal":2}
-    ,{"count1":1,"count2":11,"groupName":"Dreamcatcher","imageName":"SUA_DREAMCATCHER","artistName":"Sua","countTotal":12}
-    ,{"count1":2,"count2":0,"groupName":"CSR","imageName":"SUA_CSR","artistName":"Sua","countTotal":2}
-    ,{"count1":4,"count2":3,"groupName":"Billlie","imageName":"SUHYEON_BILLLIE","artistName":"Suhyeon","countTotal":7}
-    ,{"count1":8,"count2":0,"groupName":"NMIXX","imageName":"SULLYOON_NMIXX","artistName":"Sullyoon","countTotal":8}
-    ,{"count1":15,"count2":15,"groupName":"Stayc","imageName":"SUMIN_STAYC","artistName":"Sumin","countTotal":30}
-    ,{"count1":7,"count2":5,"groupName":"Dream Note","imageName":"SUMIN_DREAMNOTE","artistName":"Sumin","countTotal":12}
-    ,{"count1":2,"count2":0,"groupName":"Rocket Punch","imageName":"SUYUN_ROCKETPUNCH","artistName":"Suyun","countTotal":2}
-    ,{"count1":2,"count2":0,"groupName":"Purple Kiss","imageName":"SWAN_PURPLEKISS","artistName":"Swan","countTotal":2}
-    ,{"count1":7,"count2":1,"groupName":"Billlie","imageName":"TSUKI_BILLLIE","artistName":"Tsuki","countTotal":8}
-    ,{"count1":1,"count2":3,"groupName":"Twice","imageName":"TZUYU_TWICE","artistName":"Tzuyu","countTotal":4}
-    ,{"count1":10,"count2":3,"groupName":"VIVIZ","imageName":"UMJI_VIVIZ","artistName":"Umji","countTotal":13}
-    ,{"count1":1,"count2":0,"groupName":"LOONA","imageName":"VIVI_LOONA","artistName":"Vivi","countTotal":1}
-    ,{"count1":2,"count2":0,"groupName":"aespa","imageName":"WINTER_AESPA","artistName":"Winter","countTotal":2}
-    ,{"count1":35,"count2":24,"groupName":"IVE","imageName":"WONYOUNG_IVE","artistName":"Wonyoung","countTotal":59}
-    ,{"count1":6,"count2":1,"groupName":"woo!ah!","imageName":"WOOYEON_WOOAH","artistName":"Wooyeon","countTotal":7}
-    ,{"count1":29,"count2":11,"groupName":"Kep1er","imageName":"XIAOTING_KEP1ER","artistName":"Xiaoting","countTotal":40}
-    ,{"count1":10,"count2":5,"groupName":"ITZY","imageName":"YEJI_ITZY","artistName":"Yeji","countTotal":15}
-    ,{"count1":5,"count2":0,"groupName":"ichillin","imageName":"YEJU_ICHILLIN","artistName":"Yeju","countTotal":5}
-    ,{"count1":2,"count2":0,"groupName":"H1-KEY","imageName":"YEL_H1KEY","artistName":"Yel","countTotal":2}
-    ,{"count1":2,"count2":0,"groupName":"soloist","imageName":"YENA_SOLOIST","artistName":"Yena","countTotal":2}
-    ,{"count1":31,"count2":6,"groupName":"LOONA","imageName":"YEOJIN_LOONA","artistName":"Yeojin","countTotal":37}
-    ,{"count1":6,"count2":0,"groupName":"Rocket Punch","imageName":"YEONHEE_ROCKETPUNCH","artistName":"Yeonhee","countTotal":6}
-    ,{"count1":1,"count2":3,"groupName":"WJSN","imageName":"YEONJUNG_WJSN","artistName":"Yeonjung","countTotal":4}
-    ,{"count1":2,"count2":1,"groupName":"WJSN","imageName":"YEOREUM_WJSN","artistName":"Yeoreum","countTotal":3}
-    ,{"count1":2,"count2":1,"groupName":"Gfriend","imageName":"YERIN_GFRIEND","artistName":"Yerin","countTotal":3}
-    ,{"count1":4,"count2":0,"groupName":"Kep1er","imageName":"YESEO_KEP1ER","artistName":"Yeseo","countTotal":4}
-    ,{"count1":7,"count2":5,"groupName":"Everglow","imageName":"YIREN_EVERGLOW","artistName":"Yiren","countTotal":12}
-    ,{"count1":6,"count2":0,"groupName":"Oh My Girl","imageName":"YOOA_OHMYGIRL","artistName":"Yooa","countTotal":6}
-    ,{"count1":7,"count2":6,"groupName":"Dreamcatcher","imageName":"YOOHYEON_DREAMCATCHER","artistName":"Yoohyeon","countTotal":13}
-    ,{"count1":19,"count2":1,"groupName":"Stayc","imageName":"YOON_STAYC","artistName":"Yoon","countTotal":20}
-    ,{"count1":1,"count2":0,"groupName":"tripleS","imageName":"YOOYEON_TRIPLES","artistName":"Yooyeon","countTotal":1}
-    ,{"count1":3,"count2":1,"groupName":"Dream Note","imageName":"YOUI_DREAMNOTE","artistName":"YOUI","countTotal":4}
-    ,{"count1":7,"count2":0,"groupName":"Kep1er","imageName":"YOUNGEUN_KEP1ER","artistName":"Youngeun","countTotal":7}
-    ,{"count1":4,"count2":0,"groupName":"Oh My Girl","imageName":"YUBIN_OHMYGIRL","artistName":"Yubin","countTotal":4}
-    ,{"count1":3,"count2":0,"groupName":"Lapillus","imageName":"YUE_LAPILLUS","artistName":"Yue","countTotal":3}
-    ,{"count1":0,"count2":1,"groupName":"Brave Girls","imageName":"YUJEONG_BRAVEGIRLS","artistName":"Yujeong","countTotal":1}
-    ,{"count1":11,"count2":2,"groupName":"IVE","imageName":"YUJIN_IVE","artistName":"Yujin","countTotal":13}
-    ,{"count1":3,"count2":0,"groupName":"Kep1er","imageName":"YUJIN_KEP1ER","artistName":"Yujin","countTotal":3}
-    ,{"count1":3,"count2":0,"groupName":"Gfriend","imageName":"YUJU_GFRIEND","artistName":"Yuju","countTotal":3}
-    ,{"count1":3,"count2":0,"groupName":"Purple Kiss","imageName":"YUKI_PURPLEKISS","artistName":"Yuki","countTotal":3}
-    ,{"count1":5,"count2":2,"groupName":"ITZY","imageName":"YUNA_ITZY","artistName":"Yuna","countTotal":7}
-    ,{"count1":12,"count2":2,"groupName":"LE SSERAFIM","imageName":"YUNJIN_LESSERAFIM","artistName":"Yunjin","countTotal":14}
-    ,{"count1":5,"count2":0,"groupName":"Rocket Punch","imageName":"YUNKYOUNG_ROCKETPUNCH","artistName":"Yunkyoung","countTotal":5}
-    ,{"count1":8,"count2":5,"groupName":"(g)i-dle","imageName":"YUQI_GIDLE","artistName":"Yuqi","countTotal":13}
-    ,{"count1":3,"count2":0,"groupName":"soloist","imageName":"YURI_SOLOIST","artistName":"Yuri","countTotal":3}
-    ,{"count1":6,"count2":0,"groupName":"LOONA","imageName":"YVES_LOONA","artistName":"Yves","countTotal":6}
-    ,{"count1":2,"count2":0,"groupName":"bugAboo","imageName":"ZIN_BUGABOO","artistName":"Zin","countTotal":2}
-    ,{"count1":5,"count2":4,"groupName":"Weeekly","imageName":"ZOA_WEEEKLY","artistName":"Zoa","countTotal":9}
+    {"gerDate":20220610,"perDateStr":"09/06/2022","count1":1,"count2":1,"imageName":"AHIN_MOMOLAND","perHourStr":"18:42","perDate":20220609,"groupName":"Momoland","artistName":"Ahin","countTotal":2,"gerHourStr":"01:42","gerHour":142,"perHour":1842,"gerDateStr":"10/06/2022"}
+    ,{"gerDate":20220218,"perDateStr":"18/02/2022","count1":3,"count2":0,"imageName":"AISHA_EVERGLOW","perHourStr":"12:36","perDate":20220218,"groupName":"Everglow","artistName":"Aisha","countTotal":3,"gerHourStr":"18:36","gerHour":1836,"perHour":1236,"gerDateStr":"18/02/2022"}
+    ,{"gerDate":20220921,"perDateStr":"21/09/2022","count1":1,"count2":0,"imageName":"ARA_ILY1","perHourStr":"06:13","perDate":20220921,"groupName":"ily:1","artistName":"Ara","countTotal":1,"gerHourStr":"13:13","gerHour":1313,"perHour":613,"gerDateStr":"21/09/2022"}
+    ,{"gerDate":20221223,"perDateStr":"23/12/2022","count1":19,"count2":13,"imageName":"ARIN_OHMYGIRL","perHourStr":"14:25","perDate":20221223,"groupName":"Oh My Girl","artistName":"Arin","countTotal":32,"gerHourStr":"20:25","gerHour":2025,"perHour":1425,"gerDateStr":"23/12/2022"}
+    ,{"gerDate":20221013,"perDateStr":"13/10/2022","count1":3,"count2":0,"imageName":"BAE_NMIXX","perHourStr":"10:02","perDate":20221013,"groupName":"NMIXX","artistName":"Bae","countTotal":3,"gerHourStr":"17:02","gerHour":1702,"perHour":1002,"gerDateStr":"13/10/2022"}
+    ,{"gerDate":20220910,"perDateStr":"10/09/2022","count1":0,"count2":1,"imageName":"BAHIYYIH_KEP1ER","perHourStr":"02:17","perDate":20220910,"groupName":"Kep1er","artistName":"Bahiyyih","countTotal":1,"gerHourStr":"09:17","gerHour":917,"perHour":217,"gerDateStr":"10/09/2022"}
+    ,{"gerDate":20221221,"perDateStr":"21/12/2022","count1":7,"count2":0,"imageName":"BOEUN_CLASSY","perHourStr":"14:24","perDate":20221221,"groupName":"CLASS:y","artistName":"Boeun","countTotal":7,"gerHourStr":"20:24","gerHour":2024,"perHour":1424,"gerDateStr":"21/12/2022"}
+    ,{"gerDate":20220820,"perDateStr":"20/08/2022","count1":3,"count2":0,"imageName":"BONI_DREAMNOTE","perHourStr":"10:43","perDate":20220820,"groupName":"Dream Note","artistName":"Boni","countTotal":3,"gerHourStr":"17:43","gerHour":1743,"perHour":1043,"gerDateStr":"20/08/2022"}
+    ,{"gerDate":20220731,"perDateStr":"30/07/2022","count1":6,"count2":3,"imageName":"BORA_CHERRYBULLET","perHourStr":"21:30","perDate":20220730,"groupName":"Cherry Bullet","artistName":"Bora","countTotal":9,"gerHourStr":"04:30","gerHour":430,"perHour":2130,"gerDateStr":"31/07/2022"}
+    ,{"gerDate":20221220,"perDateStr":"20/12/2022","count1":4,"count2":0,"imageName":"CHAEHYUN_KEP1ER","perHourStr":"16:46","perDate":20221220,"groupName":"Kep1er","artistName":"Chaehyun","countTotal":4,"gerHourStr":"22:46","gerHour":2246,"perHour":1646,"gerDateStr":"20/12/2022"}
+    ,{"gerDate":20221203,"perDateStr":"03/12/2022","count1":21,"count2":2,"imageName":"CHAEIN_PURPLEKISS","perHourStr":"16:57","perDate":20221203,"groupName":"Purple Kiss","artistName":"Chaein","countTotal":23,"gerHourStr":"22:57","gerHour":2257,"perHour":1657,"gerDateStr":"03/12/2022"}
+    ,{"gerDate":20221211,"perDateStr":"10/12/2022","count1":1,"count2":0,"imageName":"CHAERIN_ICHILLIN","perHourStr":"21:29","perDate":20221210,"groupName":"ichillin","artistName":"Chaerin","countTotal":1,"gerHourStr":"03:29","gerHour":329,"perHour":2129,"gerDateStr":"11/12/2022"}
+    ,{"gerDate":20220929,"perDateStr":"28/09/2022","count1":5,"count2":1,"imageName":"CHAERYEONG_ITZY","perHourStr":"21:52","perDate":20220928,"groupName":"ITZY","artistName":"Chaeryeong","countTotal":6,"gerHourStr":"04:52","gerHour":452,"perHour":2152,"gerDateStr":"29/09/2022"}
+    ,{"gerDate":20220905,"perDateStr":"05/09/2022","count1":6,"count2":1,"imageName":"CHAESOL_CIGNATURE","perHourStr":"12:31","perDate":20220905,"groupName":"cignature","artistName":"Chaesol","countTotal":7,"gerHourStr":"19:31","gerHour":1931,"perHour":1231,"gerDateStr":"05/09/2022"}
+    ,{"gerDate":20221228,"perDateStr":"28/12/2022","count1":13,"count2":6,"imageName":"CHAEWON_LESSERAFIM","perHourStr":"09:10","perDate":20221228,"groupName":"LE SSERAFIM","artistName":"Chaewon","countTotal":19,"gerHourStr":"15:10","gerHour":1510,"perHour":910,"gerDateStr":"28/12/2022"}
+    ,{"gerDate":20221217,"perDateStr":"17/12/2022","count1":10,"count2":4,"imageName":"CHAEWON_CLASSY","perHourStr":"12:55","perDate":20221217,"groupName":"CLASS:y","artistName":"Chaewon","countTotal":14,"gerHourStr":"18:55","gerHour":1855,"perHour":1255,"gerDateStr":"17/12/2022"}
+    ,{"gerDate":20221107,"perDateStr":"06/11/2022","count1":1,"count2":0,"imageName":"CHAEYEON_TRIPLES","perHourStr":"22:00","perDate":20221106,"groupName":"tripleS","artistName":"Chaeyeon","countTotal":1,"gerHourStr":"04:00","gerHour":400,"perHour":2200,"gerDateStr":"07/11/2022"}
+    ,{"gerDate":20220710,"perDateStr":"09/07/2022","count1":3,"count2":1,"imageName":"CHAEYEON_SOLOIST","perHourStr":"20:25","perDate":20220709,"groupName":"soloist","artistName":"Chaeyeon","countTotal":4,"gerHourStr":"03:25","gerHour":325,"perHour":2025,"gerDateStr":"10/07/2022"}
+    ,{"gerDate":20221228,"perDateStr":"28/12/2022","count1":6,"count2":0,"imageName":"CHAEYOUNG_FROMIS9","perHourStr":"00:23","perDate":20221228,"groupName":"fromis_9","artistName":"Chaeyoung","countTotal":6,"gerHourStr":"06:23","gerHour":623,"perHour":23,"gerDateStr":"28/12/2022"}
+    ,{"gerDate":20221008,"perDateStr":"08/10/2022","count1":1,"count2":0,"imageName":"CHANTY_LAPILLUS","perHourStr":"12:08","perDate":20221008,"groupName":"Lapillus","artistName":"Chanty","countTotal":1,"gerHourStr":"19:08","gerHour":1908,"perHour":1208,"gerDateStr":"08/10/2022"}
+    ,{"gerDate":20220804,"perDateStr":"04/08/2022","count1":5,"count2":0,"imageName":"CHOERRY_LOONA","perHourStr":"16:37","perDate":20220804,"groupName":"LOONA","artistName":"Choerry","countTotal":5,"gerHourStr":"23:37","gerHour":2337,"perHour":1637,"gerDateStr":"04/08/2022"}
+    ,{"gerDate":20220810,"perDateStr":"10/08/2022","count1":1,"count2":0,"imageName":"CHOWON_ICHILLIN","perHourStr":"14:22","perDate":20220810,"groupName":"ichillin","artistName":"Chowon","countTotal":1,"gerHourStr":"21:22","gerHour":2122,"perHour":1422,"gerDateStr":"10/08/2022"}
+    ,{"gerDate":20220601,"perDateStr":"31/05/2022","count1":1,"count2":0,"imageName":"CHOWON_LIGHTSUM","perHourStr":"22:00","perDate":20220531,"groupName":"Lightsum","artistName":"Chowon","countTotal":1,"gerHourStr":"05:00","gerHour":500,"perHour":2200,"gerDateStr":"01/06/2022"}
+    ,{"gerDate":20220724,"perDateStr":"24/07/2022","count1":0,"count2":1,"imageName":"CHOYEON_BUGABOO","perHourStr":"10:13","perDate":20220724,"groupName":"bugAboo","artistName":"Choyeon","countTotal":1,"gerHourStr":"17:13","gerHour":1713,"perHour":1013,"gerDateStr":"24/07/2022"}
+    ,{"gerDate":20220323,"perDateStr":"22/03/2022","count1":2,"count2":0,"imageName":"CHUNGHA_SOLOIST","perHourStr":"22:53","perDate":20220322,"groupName":"soloist","artistName":"Chungha","countTotal":2,"gerHourStr":"04:53","gerHour":453,"perHour":2253,"gerDateStr":"23/03/2022"}
+    ,{"gerDate":20220815,"perDateStr":"15/08/2022","count1":3,"count2":0,"imageName":"CHUU_LOONA","perHourStr":"11:05","perDate":20220815,"groupName":"LOONA","artistName":"Chuu","countTotal":3,"gerHourStr":"18:05","gerHour":1805,"perHour":1105,"gerDateStr":"15/08/2022"}
+    ,{"gerDate":20221210,"perDateStr":"10/12/2022","count1":3,"count2":1,"imageName":"DAHYUN_ROCKETPUNCH","perHourStr":"08:56","perDate":20221210,"groupName":"Rocket Punch","artistName":"Dahyun","countTotal":4,"gerHourStr":"14:56","gerHour":1456,"perHour":856,"gerDateStr":"10/12/2022"}
+    ,{"gerDate":20220530,"perDateStr":"30/05/2022","count1":4,"count2":1,"imageName":"DAJEONG_PIXY","perHourStr":"16:05","perDate":20220530,"groupName":"Pixy","artistName":"Dajeong","countTotal":5,"gerHourStr":"23:05","gerHour":2305,"perHour":1605,"gerDateStr":"30/05/2022"}
+    ,{"gerDate":20230101,"perDateStr":"01/01/2023","count1":2,"count2":5,"imageName":"DANIELLE_NEWJEANS","perHourStr":"08:16","perDate":20230101,"groupName":"NewJeans","artistName":"Danielle","countTotal":7,"gerHourStr":"14:16","gerHour":1416,"perHour":816,"gerDateStr":"01/01/2023"}
+    ,{"gerDate":20221231,"perDateStr":"31/12/2022","count1":24,"count2":17,"imageName":"DAYEON_KEP1ER","perHourStr":"06:56","perDate":20221231,"groupName":"Kep1er","artistName":"Dayeon","countTotal":41,"gerHourStr":"12:56","gerHour":1256,"perHour":656,"gerDateStr":"31/12/2022"}
+    ,{"gerDate":20220618,"perDateStr":"18/06/2022","count1":6,"count2":2,"imageName":"DIA_PIXY","perHourStr":"15:02","perDate":20220618,"groupName":"Pixy","artistName":"Dia","countTotal":8,"gerHourStr":"22:02","gerHour":2202,"perHour":1502,"gerDateStr":"18/06/2022"}
+    ,{"gerDate":20221026,"perDateStr":"25/10/2022","count1":11,"count2":0,"imageName":"DOSIE_PURPLEKISS","perHourStr":"21:00","perDate":20221025,"groupName":"Purple Kiss","artistName":"Dosie","countTotal":11,"gerHourStr":"04:00","gerHour":400,"perHour":2100,"gerDateStr":"26/10/2022"}
+    ,{"gerDate":20221127,"perDateStr":"26/11/2022","count1":3,"count2":1,"imageName":"DUNA_CSR","perHourStr":"23:13","perDate":20221126,"groupName":"CSR","artistName":"Duna","countTotal":4,"gerHourStr":"05:13","gerHour":513,"perHour":2313,"gerDateStr":"27/11/2022"}
+    ,{"gerDate":20220708,"perDateStr":"08/07/2022","count1":1,"count2":0,"imageName":"EU_EVERGLOW","perHourStr":"09:42","perDate":20220708,"groupName":"Everglow","artistName":"E:U","countTotal":1,"gerHourStr":"16:42","gerHour":1642,"perHour":942,"gerDateStr":"08/07/2022"}
+    ,{"gerDate":20221231,"perDateStr":"31/12/2022","count1":3,"count2":2,"imageName":"EJI_ICHILLIN","perHourStr":"11:06","perDate":20221231,"groupName":"ichillin","artistName":"E.JI","countTotal":5,"gerHourStr":"17:06","gerHour":1706,"perHour":1106,"gerDateStr":"31/12/2022"}
+    ,{"gerDate":20220417,"perDateStr":"17/04/2022","count1":1,"count2":0,"imageName":"ELVA_ILY1","perHourStr":"10:33","perDate":20220417,"groupName":"ily:1","artistName":"Elva","countTotal":1,"gerHourStr":"17:33","gerHour":1733,"perHour":1033,"gerDateStr":"17/04/2022"}
+    ,{"gerDate":20221222,"perDateStr":"21/12/2022","count1":14,"count2":2,"imageName":"EUNBI_SOLOIST","perHourStr":"20:46","perDate":20221221,"groupName":"soloist","artistName":"Eunbi","countTotal":16,"gerHourStr":"02:46","gerHour":246,"perHour":2046,"gerDateStr":"22/12/2022"}
+    ,{"gerDate":20221225,"perDateStr":"25/12/2022","count1":7,"count2":1,"imageName":"EUNCHAE_LESSERAFIM","perHourStr":"02:23","perDate":20221225,"groupName":"LE SSERAFIM","artistName":"Eunchae","countTotal":8,"gerHourStr":"08:23","gerHour":823,"perHour":223,"gerDateStr":"25/12/2022"}
+    ,{"gerDate":20220910,"perDateStr":"10/09/2022","count1":1,"count2":0,"imageName":"EUNCHAE_BUGABOO","perHourStr":"12:18","perDate":20220910,"groupName":"bugAboo","artistName":"Eunchae","countTotal":1,"gerHourStr":"19:18","gerHour":1918,"perHour":1218,"gerDateStr":"10/09/2022"}
+    ,{"gerDate":20221222,"perDateStr":"22/12/2022","count1":17,"count2":5,"imageName":"EUNHA_VIVIZ","perHourStr":"13:43","perDate":20221222,"groupName":"VIVIZ","artistName":"Eunha","countTotal":22,"gerHourStr":"19:43","gerHour":1943,"perHour":1343,"gerDateStr":"22/12/2022"}
+    ,{"gerDate":20221024,"perDateStr":"24/10/2022","count1":4,"count2":0,"imageName":"EUNJO_DREAMNOTE","perHourStr":"09:38","perDate":20221024,"groupName":"Dream Note","artistName":"Eunjo","countTotal":4,"gerHourStr":"16:38","gerHour":1638,"perHour":938,"gerDateStr":"24/10/2022"}
+    ,{"gerDate":20220707,"perDateStr":"07/07/2022","count1":1,"count2":0,"imageName":"EUNSEO_WJSN","perHourStr":"10:28","perDate":20220707,"groupName":"WJSN","artistName":"Eunseo","countTotal":1,"gerHourStr":"17:28","gerHour":1728,"perHour":1028,"gerDateStr":"07/07/2022"}
+    ,{"gerDate":20221228,"perDateStr":"27/12/2022","count1":4,"count2":3,"imageName":"GAEUL_IVE","perHourStr":"19:40","perDate":20221227,"groupName":"IVE","artistName":"Gaeul","countTotal":7,"gerHourStr":"01:40","gerHour":140,"perHour":1940,"gerDateStr":"28/12/2022"}
+    ,{"gerDate":20221216,"perDateStr":"16/12/2022","count1":2,"count2":12,"imageName":"GAHYEON_DREAMCATCHER","perHourStr":"12:24","perDate":20221216,"groupName":"Dreamcatcher","artistName":"Gahyeon","countTotal":14,"gerHourStr":"18:24","gerHour":1824,"perHour":1224,"gerDateStr":"16/12/2022"}
+    ,{"gerDate":20221122,"perDateStr":"21/11/2022","count1":1,"count2":4,"imageName":"GARAM_LESSERAFIM","perHourStr":"19:14","perDate":20221121,"groupName":"LE SSERAFIM","artistName":"Garam","countTotal":5,"gerHourStr":"01:14","gerHour":114,"perHour":1914,"gerDateStr":"22/11/2022"}
+    ,{"gerDate":20221206,"perDateStr":"06/12/2022","count1":3,"count2":0,"imageName":"GEUMHEE_CSR","perHourStr":"06:45","perDate":20221206,"groupName":"CSR","artistName":"Geumhee","countTotal":3,"gerHourStr":"12:45","gerHour":1245,"perHour":645,"gerDateStr":"06/12/2022"}
+    ,{"gerDate":20221209,"perDateStr":"09/12/2022","count1":1,"count2":0,"imageName":"GISELLE_AESPA","perHourStr":"14:54","perDate":20221209,"groupName":"aespa","artistName":"Giselle","countTotal":1,"gerHourStr":"20:54","gerHour":2054,"perHour":1454,"gerDateStr":"09/12/2022"}
+    ,{"gerDate":20220615,"perDateStr":"14/06/2022","count1":2,"count2":0,"imageName":"GOEUN_PURPLEKISS","perHourStr":"20:59","perDate":20220614,"groupName":"Purple Kiss","artistName":"Goeun","countTotal":2,"gerHourStr":"03:59","gerHour":359,"perHour":2059,"gerDateStr":"15/06/2022"}
+    ,{"gerDate":20221023,"perDateStr":"23/10/2022","count1":3,"count2":0,"imageName":"GOWON_LOONA","perHourStr":"07:44","perDate":20221023,"groupName":"LOONA","artistName":"Gowon","countTotal":3,"gerHourStr":"14:44","gerHour":1444,"perHour":744,"gerDateStr":"23/10/2022"}
+    ,{"gerDate":20221110,"perDateStr":"09/11/2022","count1":4,"count2":1,"imageName":"HAERIN_NEWJEANS","perHourStr":"20:26","perDate":20221109,"groupName":"NewJeans","artistName":"Haerin","countTotal":5,"gerHourStr":"02:26","gerHour":226,"perHour":2026,"gerDateStr":"10/11/2022"}
+    ,{"gerDate":20220914,"perDateStr":"14/09/2022","count1":2,"count2":1,"imageName":"HAEUN_LAPILLUS","perHourStr":"09:55","perDate":20220914,"groupName":"Lapillus","artistName":"Haeun","countTotal":3,"gerHourStr":"16:55","gerHour":1655,"perHour":955,"gerDateStr":"14/09/2022"}
+    ,{"gerDate":20221209,"perDateStr":"09/12/2022","count1":7,"count2":2,"imageName":"HAEWON_NMIXX","perHourStr":"08:33","perDate":20221209,"groupName":"NMIXX","artistName":"Haewon","countTotal":9,"gerHourStr":"14:33","gerHour":1433,"perHour":833,"gerDateStr":"09/12/2022"}
+    ,{"gerDate":20221219,"perDateStr":"19/12/2022","count1":10,"count2":4,"imageName":"HANDONG_DREAMCATCHER","perHourStr":"14:58","perDate":20221219,"groupName":"Dreamcatcher","artistName":"Handong","countTotal":14,"gerHourStr":"20:58","gerHour":2058,"perHour":1458,"gerDateStr":"19/12/2022"}
+    ,{"gerDate":20221031,"perDateStr":"31/10/2022","count1":2,"count2":0,"imageName":"HANNI_NEWJEANS","perHourStr":"13:08","perDate":20221031,"groupName":"NewJeans","artistName":"Hanni","countTotal":2,"gerHourStr":"19:08","gerHour":1908,"perHour":1308,"gerDateStr":"31/10/2022"}
+    ,{"gerDate":20221212,"perDateStr":"11/12/2022","count1":21,"count2":5,"imageName":"HARAM_BILLLIE","perHourStr":"21:11","perDate":20221211,"groupName":"Billlie","artistName":"Haram","countTotal":26,"gerHourStr":"03:11","gerHour":311,"perHour":2111,"gerDateStr":"12/12/2022"}
+    ,{"gerDate":20220914,"perDateStr":"14/09/2022","count1":2,"count2":0,"imageName":"HARUNA_BILLLIE","perHourStr":"05:58","perDate":20220914,"groupName":"Billlie","artistName":"Haruna","countTotal":2,"gerHourStr":"12:58","gerHour":1258,"perHour":558,"gerDateStr":"14/09/2022"}
+    ,{"gerDate":20220714,"perDateStr":"14/07/2022","count1":11,"count2":0,"imageName":"HASEUL_LOONA","perHourStr":"11:40","perDate":20220714,"groupName":"LOONA","artistName":"Haseul","countTotal":11,"gerHourStr":"18:40","gerHour":1840,"perHour":1140,"gerDateStr":"14/07/2022"}
+    ,{"gerDate":20221224,"perDateStr":"23/12/2022","count1":15,"count2":7,"imageName":"HEEJIN_LOONA","perHourStr":"22:21","perDate":20221223,"groupName":"LOONA","artistName":"Heejin","countTotal":22,"gerHourStr":"04:21","gerHour":421,"perHour":2221,"gerDateStr":"24/12/2022"}
+    ,{"gerDate":20221220,"perDateStr":"20/12/2022","count1":2,"count2":0,"imageName":"HIKARU_KEP1ER","perHourStr":"09:13","perDate":20221220,"groupName":"Kep1er","artistName":"Hikaru","countTotal":2,"gerHourStr":"15:13","gerHour":1513,"perHour":913,"gerDateStr":"20/12/2022"}
+    ,{"gerDate":20220330,"perDateStr":"30/03/2022","count1":1,"count2":0,"imageName":"HINA_LIGHTSUM","perHourStr":"06:51","perDate":20220330,"groupName":"Lightsum","artistName":"Hina","countTotal":1,"gerHourStr":"13:51","gerHour":1351,"perHour":651,"gerDateStr":"30/03/2022"}
+    ,{"gerDate":20221027,"perDateStr":"27/10/2022","count1":2,"count2":0,"imageName":"HWISEO_H1KEY","perHourStr":"14:45","perDate":20221027,"groupName":"H1-KEY","artistName":"Hwiseo","countTotal":2,"gerHourStr":"21:45","gerHour":2145,"perHour":1445,"gerDateStr":"27/10/2022"}
+    ,{"gerDate":20220925,"perDateStr":"24/09/2022","count1":2,"count2":0,"imageName":"HYEIN_NEWJEANS","perHourStr":"21:09","perDate":20220924,"groupName":"NewJeans","artistName":"Hyein","countTotal":2,"gerHourStr":"04:09","gerHour":409,"perHour":2109,"gerDateStr":"25/09/2022"}
+    ,{"gerDate":20221214,"perDateStr":"13/12/2022","count1":6,"count2":0,"imageName":"HYEJU_CLASSY","perHourStr":"21:00","perDate":20221213,"groupName":"CLASS:y","artistName":"Hyeju","countTotal":6,"gerHourStr":"03:00","gerHour":300,"perHour":2100,"gerDateStr":"14/12/2022"}
+    ,{"gerDate":20220704,"perDateStr":"04/07/2022","count1":2,"count2":1,"imageName":"HYEWON_SOLOIST","perHourStr":"08:02","perDate":20220704,"groupName":"soloist","artistName":"Hyewon","countTotal":3,"gerHourStr":"15:02","gerHour":1502,"perHour":802,"gerDateStr":"04/07/2022"}
+    ,{"gerDate":20221102,"perDateStr":"02/11/2022","count1":11,"count2":4,"imageName":"HYOJUNG_OHMYGIRL","perHourStr":"11:43","perDate":20221102,"groupName":"Oh My Girl","artistName":"Hyojung","countTotal":15,"gerHourStr":"17:43","gerHour":1743,"perHour":1143,"gerDateStr":"02/11/2022"}
+    ,{"gerDate":20221212,"perDateStr":"12/12/2022","count1":14,"count2":19,"imageName":"HYUNBIN_TRIBE","perHourStr":"06:11","perDate":20221212,"groupName":"TRI.BE","artistName":"Hyunbin","countTotal":33,"gerHourStr":"12:11","gerHour":1211,"perHour":611,"gerDateStr":"12/12/2022"}
+    ,{"gerDate":20221214,"perDateStr":"14/12/2022","count1":7,"count2":0,"imageName":"HYUNGSEO_CLASSY","perHourStr":"09:46","perDate":20221214,"groupName":"CLASS:y","artistName":"Hyungseo","countTotal":7,"gerHourStr":"15:46","gerHour":1546,"perHour":946,"gerDateStr":"14/12/2022"}
+    ,{"gerDate":20221007,"perDateStr":"07/10/2022","count1":4,"count2":3,"imageName":"HYUNJIN_LOONA","perHourStr":"05:26","perDate":20221007,"groupName":"LOONA","artistName":"Hyunjin","countTotal":7,"gerHourStr":"12:26","gerHour":1226,"perHour":526,"gerDateStr":"07/10/2022"}
+    ,{"gerDate":20220325,"perDateStr":"25/03/2022","count1":1,"count2":0,"imageName":"IREH_PURPLEKISS","perHourStr":"00:59","perDate":20220325,"groupName":"Purple Kiss","artistName":"Ireh","countTotal":1,"gerHourStr":"06:59","gerHour":659,"perHour":59,"gerDateStr":"25/03/2022"}
+    ,{"gerDate":20221230,"perDateStr":"29/12/2022","count1":26,"count2":24,"imageName":"ISA_STAYC","perHourStr":"21:06","perDate":20221229,"groupName":"Stayc","artistName":"ISA","countTotal":50,"gerHourStr":"03:06","gerHour":306,"perHour":2106,"gerDateStr":"30/12/2022"}
+    ,{"gerDate":20221212,"perDateStr":"12/12/2022","count1":15,"count2":2,"imageName":"J_STAYC","perHourStr":"00:52","perDate":20221212,"groupName":"Stayc","artistName":"J","countTotal":17,"gerHourStr":"06:52","gerHour":652,"perHour":52,"gerDateStr":"12/12/2022"}
+    ,{"gerDate":20221211,"perDateStr":"11/12/2022","count1":7,"count2":0,"imageName":"JACKIE_ICHILLIN","perHourStr":"08:04","perDate":20221211,"groupName":"ichillin","artistName":"Jackie","countTotal":7,"gerHourStr":"14:04","gerHour":1404,"perHour":804,"gerDateStr":"11/12/2022"}
+    ,{"gerDate":20220822,"perDateStr":"22/08/2022","count1":3,"count2":0,"imageName":"JAEHEE_WEEEKLY","perHourStr":"09:08","perDate":20220822,"groupName":"Weeekly","artistName":"Jaehee","countTotal":3,"gerHourStr":"16:08","gerHour":1608,"perHour":908,"gerDateStr":"22/08/2022"}
+    ,{"gerDate":20220203,"perDateStr":"03/02/2022","count1":1,"count2":1,"imageName":"JEEWON_CIGNATURE","perHourStr":"14:54","perDate":20220203,"groupName":"cignature","artistName":"Jeewon","countTotal":2,"gerHourStr":"20:54","gerHour":2054,"perHour":1454,"gerDateStr":"03/02/2022"}
+    ,{"gerDate":20221221,"perDateStr":"21/12/2022","count1":2,"count2":10,"imageName":"JENNIE_BLACKPINK","perHourStr":"04:48","perDate":20221221,"groupName":"Blackpink","artistName":"Jennie","countTotal":12,"gerHourStr":"10:48","gerHour":1048,"perHour":448,"gerDateStr":"21/12/2022"}
+    ,{"gerDate":20221028,"perDateStr":"28/10/2022","count1":2,"count2":0,"imageName":"JIA_MIMIIROSE","perHourStr":"11:20","perDate":20221028,"groupName":"mimiirose","artistName":"Jia","countTotal":2,"gerHourStr":"18:20","gerHour":1820,"perHour":1120,"gerDateStr":"28/10/2022"}
+    ,{"gerDate":20220406,"perDateStr":"06/04/2022","count1":2,"count2":0,"imageName":"JIEUN_PURPLEKISS","perHourStr":"01:23","perDate":20220406,"groupName":"Purple Kiss","artistName":"Jieun","countTotal":2,"gerHourStr":"08:23","gerHour":823,"perHour":123,"gerDateStr":"06/04/2022"}
+    ,{"gerDate":20220915,"perDateStr":"15/09/2022","count1":3,"count2":6,"imageName":"JIHAN_WEEEKLY","perHourStr":"16:18","perDate":20220915,"groupName":"Weeekly","artistName":"Jihan","countTotal":9,"gerHourStr":"23:18","gerHour":2318,"perHour":1618,"gerDateStr":"15/09/2022"}
+    ,{"gerDate":20220608,"perDateStr":"08/06/2022","count1":3,"count2":1,"imageName":"JIHEON_FROMIS9","perHourStr":"15:19","perDate":20220608,"groupName":"fromis_9","artistName":"Jiheon","countTotal":4,"gerHourStr":"22:19","gerHour":2219,"perHour":1519,"gerDateStr":"08/06/2022"}
+    ,{"gerDate":20221225,"perDateStr":"25/12/2022","count1":1,"count2":2,"imageName":"JIHO_OHMYGIRL","perHourStr":"03:57","perDate":20221225,"groupName":"Oh My Girl","artistName":"Jiho","countTotal":3,"gerHourStr":"09:57","gerHour":957,"perHour":357,"gerDateStr":"25/12/2022"}
+    ,{"gerDate":20220201,"perDateStr":"01/02/2022","count1":0,"count2":1,"imageName":"JIHYO_TWICE","perHourStr":"17:33","perDate":20220201,"groupName":"Twice","artistName":"Jihyo","countTotal":1,"gerHourStr":"23:33","gerHour":2333,"perHour":1733,"gerDateStr":"01/02/2022"}
+    ,{"gerDate":20221221,"perDateStr":"21/12/2022","count1":18,"count2":6,"imageName":"JIMIN_CLASSY","perHourStr":"17:03","perDate":20221221,"groupName":"CLASS:y","artistName":"Jimin","countTotal":24,"gerHourStr":"23:03","gerHour":2303,"perHour":1703,"gerDateStr":"21/12/2022"}
+    ,{"gerDate":20220507,"perDateStr":"07/05/2022","count1":1,"count2":1,"imageName":"JINHA_TRIBE","perHourStr":"09:18","perDate":20220507,"groupName":"TRI.BE","artistName":"Jinha","countTotal":2,"gerHourStr":"16:18","gerHour":1618,"perHour":918,"gerDateStr":"07/05/2022"}
+    ,{"gerDate":20221014,"perDateStr":"13/10/2022","count1":8,"count2":1,"imageName":"JINNI_NMIXX","perHourStr":"17:00","perDate":20221013,"groupName":"NMIXX","artistName":"Jinni","countTotal":9,"gerHourStr":"00:00","gerHour":0,"perHour":1700,"gerDateStr":"14/10/2022"}
+    ,{"gerDate":20221227,"perDateStr":"27/12/2022","count1":9,"count2":2,"imageName":"JINNY_SECRETNUMBER","perHourStr":"02:20","perDate":20221227,"groupName":"Secret Number","artistName":"Jinny","countTotal":11,"gerHourStr":"08:20","gerHour":820,"perHour":220,"gerDateStr":"27/12/2022"}
+    ,{"gerDate":20221027,"perDateStr":"27/10/2022","count1":5,"count2":6,"imageName":"JINSOUL_LOONA","perHourStr":"00:50","perDate":20221027,"groupName":"LOONA","artistName":"Jinsoul","countTotal":11,"gerHourStr":"07:50","gerHour":750,"perHour":50,"gerDateStr":"27/10/2022"}
+    ,{"gerDate":20221216,"perDateStr":"16/12/2022","count1":13,"count2":3,"imageName":"JISOO_BLACKPINK","perHourStr":"07:52","perDate":20221216,"groupName":"Blackpink","artistName":"Jisoo","countTotal":16,"gerHourStr":"13:52","gerHour":1352,"perHour":752,"gerDateStr":"16/12/2022"}
+    ,{"gerDate":20220711,"perDateStr":"11/07/2022","count1":2,"count2":0,"imageName":"JISUN_FROMIS9","perHourStr":"11:35","perDate":20220711,"groupName":"fromis_9","artistName":"Jisun","countTotal":2,"gerHourStr":"18:35","gerHour":1835,"perHour":1135,"gerDateStr":"11/07/2022"}
+    ,{"gerDate":20221116,"perDateStr":"15/11/2022","count1":10,"count2":3,"imageName":"JIU_DREAMCATCHER","perHourStr":"18:07","perDate":20221115,"groupName":"Dreamcatcher","artistName":"Jiu","countTotal":13,"gerHourStr":"00:07","gerHour":7,"perHour":1807,"gerDateStr":"16/11/2022"}
+    ,{"gerDate":20220718,"perDateStr":"17/07/2022","count1":1,"count2":0,"imageName":"JIWON_CHERRYBULLET","perHourStr":"17:45","perDate":20220717,"groupName":"Cherry Bullet","artistName":"Jiwon","countTotal":1,"gerHourStr":"00:45","gerHour":45,"perHour":1745,"gerDateStr":"18/07/2022"}
+    ,{"gerDate":20221218,"perDateStr":"18/12/2022","count1":1,"count2":0,"imageName":"JIWON_FROMIS9","perHourStr":"09:29","perDate":20221218,"groupName":"fromis_9","artistName":"Jiwon","countTotal":1,"gerHourStr":"15:29","gerHour":1529,"perHour":929,"gerDateStr":"18/12/2022"}
+    ,{"gerDate":20220406,"perDateStr":"06/04/2022","count1":3,"count2":0,"imageName":"JIWOO_NMIXX","perHourStr":"14:30","perDate":20220406,"groupName":"NMIXX","artistName":"Jiwoo","countTotal":3,"gerHourStr":"21:30","gerHour":2130,"perHour":1430,"gerDateStr":"06/04/2022"}
+    ,{"gerDate":20221113,"perDateStr":"13/11/2022","count1":1,"count2":0,"imageName":"JIYOON_ICHILLIN","perHourStr":"10:35","perDate":20221113,"groupName":"ichillin","artistName":"Jiyoon","countTotal":1,"gerHourStr":"16:35","gerHour":1635,"perHour":1035,"gerDateStr":"13/11/2022"}
+    ,{"gerDate":20220822,"perDateStr":"22/08/2022","count1":1,"count2":0,"imageName":"JIYOON_WEEEKLY","perHourStr":"13:48","perDate":20220822,"groupName":"Weeekly","artistName":"Jiyoon","countTotal":1,"gerHourStr":"20:48","gerHour":2048,"perHour":1348,"gerDateStr":"22/08/2022"}
+    ,{"gerDate":20220610,"perDateStr":"09/06/2022","count1":1,"count2":1,"imageName":"JOOE_MOMOLAND","perHourStr":"18:42","perDate":20220609,"groupName":"Momoland","artistName":"Jooe","countTotal":2,"gerHourStr":"01:42","gerHour":142,"perHour":1842,"gerDateStr":"10/06/2022"}
+    ,{"gerDate":20220516,"perDateStr":"15/05/2022","count1":2,"count2":0,"imageName":"JUHYEON_LIGHTSUM","perHourStr":"21:34","perDate":20220515,"groupName":"Lightsum","artistName":"Juhyeon","countTotal":2,"gerHourStr":"04:34","gerHour":434,"perHour":2134,"gerDateStr":"16/05/2022"}
+    ,{"gerDate":20221119,"perDateStr":"18/11/2022","count1":4,"count2":1,"imageName":"JURI_ROCKETPUNCH","perHourStr":"22:38","perDate":20221118,"groupName":"Rocket Punch","artistName":"Juri","countTotal":5,"gerHourStr":"04:38","gerHour":438,"perHour":2238,"gerDateStr":"19/11/2022"}
+    ,{"gerDate":20221025,"perDateStr":"24/10/2022","count1":3,"count2":4,"imageName":"KARINA_AESPA","perHourStr":"19:18","perDate":20221024,"groupName":"aespa","artistName":"Karina","countTotal":7,"gerHourStr":"02:18","gerHour":218,"perHour":1918,"gerDateStr":"25/10/2022"}
+    ,{"gerDate":20221229,"perDateStr":"28/12/2022","count1":9,"count2":3,"imageName":"KAZUHA_LESSERAFIM","perHourStr":"20:00","perDate":20221228,"groupName":"LE SSERAFIM","artistName":"Kazuha","countTotal":12,"gerHourStr":"02:00","gerHour":200,"perHour":2000,"gerDateStr":"29/12/2022"}
+    ,{"gerDate":20221019,"perDateStr":"19/10/2022","count1":1,"count2":3,"imageName":"KELLY_TRIBE","perHourStr":"00:36","perDate":20221019,"groupName":"TRI.BE","artistName":"Kelly","countTotal":4,"gerHourStr":"07:36","gerHour":736,"perHour":36,"gerDateStr":"19/10/2022"}
+    ,{"gerDate":20220922,"perDateStr":"21/09/2022","count1":6,"count2":0,"imageName":"KIMLIP_LOONA","perHourStr":"18:58","perDate":20220921,"groupName":"LOONA","artistName":"KimLip","countTotal":6,"gerHourStr":"01:58","gerHour":158,"perHour":1858,"gerDateStr":"22/09/2022"}
+    ,{"gerDate":20221126,"perDateStr":"26/11/2022","count1":5,"count2":3,"imageName":"KYUJIN_NMIXX","perHourStr":"06:39","perDate":20221126,"groupName":"NMIXX","artistName":"Kyujin","countTotal":8,"gerHourStr":"12:39","gerHour":1239,"perHour":639,"gerDateStr":"26/11/2022"}
+    ,{"gerDate":20220820,"perDateStr":"20/08/2022","count1":2,"count2":0,"imageName":"LARA_DREAMNOTE","perHourStr":"00:28","perDate":20220820,"groupName":"Dream Note","artistName":"Lara","countTotal":2,"gerHourStr":"07:28","gerHour":728,"perHour":28,"gerDateStr":"20/08/2022"}
+    ,{"gerDate":20221202,"perDateStr":"02/12/2022","count1":8,"count2":1,"imageName":"LEESEO_IVE","perHourStr":"05:12","perDate":20221202,"groupName":"IVE","artistName":"Leeseo","countTotal":9,"gerHourStr":"11:12","gerHour":1112,"perHour":512,"gerDateStr":"02/12/2022"}
+    ,{"gerDate":20220301,"perDateStr":"01/03/2022","count1":1,"count2":2,"imageName":"LIA_ITZY","perHourStr":"01:48","perDate":20220301,"groupName":"ITZY","artistName":"Lia","countTotal":3,"gerHourStr":"07:48","gerHour":748,"perHour":148,"gerDateStr":"01/03/2022"}
+    ,{"gerDate":20221129,"perDateStr":"28/11/2022","count1":3,"count2":0,"imageName":"LISA_BLACKPINK","perHourStr":"23:57","perDate":20221128,"groupName":"Blackpink","artistName":"Lisa","countTotal":3,"gerHourStr":"05:57","gerHour":557,"perHour":2357,"gerDateStr":"29/11/2022"}
+    ,{"gerDate":20220906,"perDateStr":"06/09/2022","count1":2,"count2":3,"imageName":"LIZ_IVE","perHourStr":"15:17","perDate":20220906,"groupName":"IVE","artistName":"Liz","countTotal":5,"gerHourStr":"22:17","gerHour":2217,"perHour":1517,"gerDateStr":"06/09/2022"}
+    ,{"gerDate":20221226,"perDateStr":"26/12/2022","count1":1,"count2":3,"imageName":"LOLA_PIXY","perHourStr":"05:52","perDate":20221226,"groupName":"Pixy","artistName":"Lola","countTotal":4,"gerHourStr":"11:52","gerHour":1152,"perHour":552,"gerDateStr":"26/12/2022"}
+    ,{"gerDate":20221126,"perDateStr":"26/11/2022","count1":1,"count2":1,"imageName":"LUCY_WOOAH","perHourStr":"17:29","perDate":20221126,"groupName":"woo!ah!","artistName":"Lucy","countTotal":2,"gerHourStr":"23:29","gerHour":2329,"perHour":1729,"gerDateStr":"26/11/2022"}
+    ,{"gerDate":20221010,"perDateStr":"10/10/2022","count1":2,"count2":0,"imageName":"LUDA_WJSN","perHourStr":"01:04","perDate":20221010,"groupName":"WJSN","artistName":"Luda","countTotal":2,"gerHourStr":"08:04","gerHour":804,"perHour":104,"gerDateStr":"10/10/2022"}
+    ,{"gerDate":20220425,"perDateStr":"25/04/2022","count1":0,"count2":1,"imageName":"MIA_EVERGLOW","perHourStr":"13:17","perDate":20220425,"groupName":"Everglow","artistName":"Mia","countTotal":1,"gerHourStr":"20:17","gerHour":2017,"perHour":1317,"gerDateStr":"25/04/2022"}
+    ,{"gerDate":20221209,"perDateStr":"09/12/2022","count1":3,"count2":2,"imageName":"MINJI_NEWJEANS","perHourStr":"01:52","perDate":20221209,"groupName":"NewJeans","artistName":"Minji","countTotal":5,"gerHourStr":"07:52","gerHour":752,"perHour":152,"gerDateStr":"09/12/2022"}
+    ,{"gerDate":20220311,"perDateStr":"11/03/2022","count1":2,"count2":0,"imageName":"MINJU_SOLOIST","perHourStr":"10:51","perDate":20220311,"groupName":"soloist","artistName":"Minju","countTotal":2,"gerHourStr":"16:51","gerHour":1651,"perHour":1051,"gerDateStr":"11/03/2022"}
+    ,{"gerDate":20220324,"perDateStr":"23/03/2022","count1":1,"count2":0,"imageName":"MINNIE_GIDLE","perHourStr":"18:44","perDate":20220323,"groupName":"(g)i-dle","artistName":"Minnie","countTotal":1,"gerHourStr":"00:44","gerHour":44,"perHour":1844,"gerDateStr":"24/03/2022"}
+    ,{"gerDate":20221130,"perDateStr":"30/11/2022","count1":3,"count2":0,"imageName":"MINSEO_WOOAH","perHourStr":"07:29","perDate":20221130,"groupName":"woo!ah!","artistName":"Minseo","countTotal":3,"gerHourStr":"13:29","gerHour":1329,"perHour":729,"gerDateStr":"30/11/2022"}
+    ,{"gerDate":20220415,"perDateStr":"15/04/2022","count1":1,"count2":1,"imageName":"MIRE_TRIBE","perHourStr":"07:43","perDate":20220415,"groupName":"TRI.BE","artistName":"Mire","countTotal":2,"gerHourStr":"14:43","gerHour":1443,"perHour":743,"gerDateStr":"15/04/2022"}
+    ,{"gerDate":20220718,"perDateStr":"18/07/2022","count1":6,"count2":2,"imageName":"MISO_DREAMNOTE","perHourStr":"00:03","perDate":20220718,"groupName":"Dream Note","artistName":"Miso","countTotal":8,"gerHourStr":"07:03","gerHour":703,"perHour":3,"gerDateStr":"18/07/2022"}
+    ,{"gerDate":20230101,"perDateStr":"31/12/2022","count1":17,"count2":7,"imageName":"MIYEON_GIDLE","perHourStr":"19:19","perDate":20221231,"groupName":"(g)i-dle","artistName":"Miyeon","countTotal":24,"gerHourStr":"01:19","gerHour":119,"perHour":1919,"gerDateStr":"01/01/2023"}
+    ,{"gerDate":20220827,"perDateStr":"27/08/2022","count1":0,"count2":3,"imageName":"MOMO_TWICE","perHourStr":"01:40","perDate":20220827,"groupName":"Twice","artistName":"Momo","countTotal":3,"gerHourStr":"08:40","gerHour":840,"perHour":140,"gerDateStr":"27/08/2022"}
+    ,{"gerDate":20221207,"perDateStr":"07/12/2022","count1":6,"count2":6,"imageName":"MONDAY_WEEEKLY","perHourStr":"01:54","perDate":20221207,"groupName":"Weeekly","artistName":"Monday","countTotal":12,"gerHourStr":"07:54","gerHour":754,"perHour":154,"gerDateStr":"07/12/2022"}
+    ,{"gerDate":20220308,"perDateStr":"08/03/2022","count1":2,"count2":0,"imageName":"MOONSUA_BILLLIE","perHourStr":"02:31","perDate":20220308,"groupName":"Billlie","artistName":"Moon Sua","countTotal":2,"gerHourStr":"08:31","gerHour":831,"perHour":231,"gerDateStr":"08/03/2022"}
+    ,{"gerDate":20221103,"perDateStr":"03/11/2022","count1":1,"count2":0,"imageName":"NAKYOUNG_TRIPLES","perHourStr":"10:57","perDate":20221103,"groupName":"tripleS","artistName":"Nakyoung","countTotal":1,"gerHourStr":"16:57","gerHour":1657,"perHour":1057,"gerDateStr":"03/11/2022"}
+    ,{"gerDate":20221219,"perDateStr":"19/12/2022","count1":4,"count2":2,"imageName":"NANA_WOOAH","perHourStr":"07:17","perDate":20221219,"groupName":"woo!ah!","artistName":"Nana","countTotal":6,"gerHourStr":"13:17","gerHour":1317,"perHour":717,"gerDateStr":"19/12/2022"}
+    ,{"gerDate":20221219,"perDateStr":"19/12/2022","count1":3,"count2":2,"imageName":"NANCY_MOMOLAND","perHourStr":"00:38","perDate":20221219,"groupName":"Momoland","artistName":"Nancy","countTotal":5,"gerHourStr":"06:38","gerHour":638,"perHour":38,"gerDateStr":"19/12/2022"}
+    ,{"gerDate":20220830,"perDateStr":"30/08/2022","count1":2,"count2":0,"imageName":"NAYEON_TWICE","perHourStr":"01:43","perDate":20220830,"groupName":"Twice","artistName":"Nayeon","countTotal":2,"gerHourStr":"08:43","gerHour":843,"perHour":143,"gerDateStr":"30/08/2022"}
+    ,{"gerDate":20221116,"perDateStr":"16/11/2022","count1":5,"count2":0,"imageName":"NAYOUNG_LIGHTSUM","perHourStr":"08:24","perDate":20221116,"groupName":"Lightsum","artistName":"Nayoung","countTotal":5,"gerHourStr":"14:24","gerHour":1424,"perHour":824,"gerDateStr":"16/11/2022"}
+    ,{"gerDate":20220914,"perDateStr":"13/09/2022","count1":0,"count2":1,"imageName":"NAYU_ILY1","perHourStr":"19:52","perDate":20220913,"groupName":"ily:1","artistName":"Nayu","countTotal":1,"gerHourStr":"02:52","gerHour":252,"perHour":1952,"gerDateStr":"14/09/2022"}
+    ,{"gerDate":20220822,"perDateStr":"22/08/2022","count1":2,"count2":1,"imageName":"NINGNING_AESPA","perHourStr":"00:19","perDate":20220822,"groupName":"aespa","artistName":"Ning Ning","countTotal":3,"gerHourStr":"07:19","gerHour":719,"perHour":19,"gerDateStr":"22/08/2022"}
+    ,{"gerDate":20220903,"perDateStr":"03/09/2022","count1":3,"count2":0,"imageName":"OLIVIAHYE_LOONA","perHourStr":"11:03","perDate":20220903,"groupName":"LOONA","artistName":"Olivia Hye","countTotal":3,"gerHourStr":"18:03","gerHour":1803,"perHour":1103,"gerDateStr":"03/09/2022"}
+    ,{"gerDate":20221227,"perDateStr":"27/12/2022","count1":7,"count2":3,"imageName":"REI_IVE","perHourStr":"02:50","perDate":20221227,"groupName":"IVE","artistName":"Rei","countTotal":10,"gerHourStr":"08:50","gerHour":850,"perHour":250,"gerDateStr":"27/12/2022"}
+    ,{"gerDate":20221015,"perDateStr":"14/10/2022","count1":2,"count2":0,"imageName":"RIINA_H1KEY","perHourStr":"22:56","perDate":20221014,"groupName":"H1-KEY","artistName":"Riina","countTotal":2,"gerHourStr":"05:56","gerHour":556,"perHour":2256,"gerDateStr":"15/10/2022"}
+    ,{"gerDate":20220604,"perDateStr":"04/06/2022","count1":1,"count2":0,"imageName":"RIRIKA_ILY1","perHourStr":"16:44","perDate":20220604,"groupName":"ily:1","artistName":"Ririka","countTotal":1,"gerHourStr":"23:44","gerHour":2344,"perHour":1644,"gerDateStr":"04/06/2022"}
+    ,{"gerDate":20221213,"perDateStr":"13/12/2022","count1":5,"count2":0,"imageName":"RIWON_CLASSY","perHourStr":"08:23","perDate":20221213,"groupName":"CLASS:y","artistName":"Riwon","countTotal":5,"gerHourStr":"14:23","gerHour":1423,"perHour":823,"gerDateStr":"13/12/2022"}
+    ,{"gerDate":20220815,"perDateStr":"15/08/2022","count1":6,"count2":13,"imageName":"RONA_ILY1","perHourStr":"06:41","perDate":20220815,"groupName":"ily:1","artistName":"Rona","countTotal":19,"gerHourStr":"13:41","gerHour":1341,"perHour":641,"gerDateStr":"15/08/2022"}
+    ,{"gerDate":20220426,"perDateStr":"26/04/2022","count1":0,"count2":1,"imageName":"ROSE_BLACKPINK","perHourStr":"02:42","perDate":20220426,"groupName":"Blackpink","artistName":"Rose","countTotal":1,"gerHourStr":"09:42","gerHour":942,"perHour":242,"gerDateStr":"26/04/2022"}
+    ,{"gerDate":20220923,"perDateStr":"22/09/2022","count1":0,"count2":1,"imageName":"RYUJIN_ITZY","perHourStr":"20:46","perDate":20220922,"groupName":"ITZY","artistName":"Ryujin","countTotal":1,"gerHourStr":"03:46","gerHour":346,"perHour":2046,"gerDateStr":"23/09/2022"}
+    ,{"gerDate":20221011,"perDateStr":"10/10/2022","count1":1,"count2":3,"imageName":"SAEROM_FROMIS9","perHourStr":"18:03","perDate":20221010,"groupName":"fromis_9","artistName":"Saerom","countTotal":4,"gerHourStr":"01:03","gerHour":103,"perHour":1803,"gerDateStr":"11/10/2022"}
+    ,{"gerDate":20221228,"perDateStr":"28/12/2022","count1":3,"count2":1,"imageName":"SAKURA_LESSERAFIM","perHourStr":"17:19","perDate":20221228,"groupName":"LE SSERAFIM","artistName":"Sakura","countTotal":4,"gerHourStr":"23:19","gerHour":2319,"perHour":1719,"gerDateStr":"28/12/2022"}
+    ,{"gerDate":20220806,"perDateStr":"06/08/2022","count1":3,"count2":4,"imageName":"SANA_TWICE","perHourStr":"02:05","perDate":20220806,"groupName":"Twice","artistName":"Sana","countTotal":7,"gerHourStr":"09:05","gerHour":905,"perHour":205,"gerDateStr":"06/08/2022"}
+    ,{"gerDate":20220914,"perDateStr":"14/09/2022","count1":10,"count2":2,"imageName":"SANGAH_LIGHTSUM","perHourStr":"00:21","perDate":20220914,"groupName":"Lightsum","artistName":"Sangah","countTotal":12,"gerHourStr":"07:21","gerHour":721,"perHour":21,"gerDateStr":"14/09/2022"}
+    ,{"gerDate":20220915,"perDateStr":"15/09/2022","count1":3,"count2":0,"imageName":"SEEUN_STAYC","perHourStr":"12:40","perDate":20220915,"groupName":"Stayc","artistName":"Seeun","countTotal":3,"gerHourStr":"19:40","gerHour":1940,"perHour":1240,"gerDateStr":"15/09/2022"}
+    ,{"gerDate":20221012,"perDateStr":"11/10/2022","count1":1,"count2":0,"imageName":"SEOI_H1KEY","perHourStr":"20:53","perDate":20221011,"groupName":"H1-KEY","artistName":"Seoi","countTotal":1,"gerHourStr":"03:53","gerHour":353,"perHour":2053,"gerDateStr":"12/10/2022"}
+    ,{"gerDate":20220708,"perDateStr":"07/07/2022","count1":1,"count2":0,"imageName":"SEOLA_WJSN","perHourStr":"18:20","perDate":20220707,"groupName":"WJSN","artistName":"Seola","countTotal":1,"gerHourStr":"01:20","gerHour":120,"perHour":1820,"gerDateStr":"08/07/2022"}
+    ,{"gerDate":20221213,"perDateStr":"13/12/2022","count1":2,"count2":1,"imageName":"SEONYU_CLASSY","perHourStr":"14:23","perDate":20221213,"groupName":"CLASS:y","artistName":"Seonyu","countTotal":3,"gerHourStr":"20:23","gerHour":2023,"perHour":1423,"gerDateStr":"13/12/2022"}
+    ,{"gerDate":20220904,"perDateStr":"03/09/2022","count1":1,"count2":0,"imageName":"SEOYEON_FROMIS9","perHourStr":"23:00","perDate":20220903,"groupName":"fromis_9","artistName":"Seoyeon","countTotal":1,"gerHourStr":"06:00","gerHour":600,"perHour":2300,"gerDateStr":"04/09/2022"}
+    ,{"gerDate":20220926,"perDateStr":"26/09/2022","count1":1,"count2":2,"imageName":"SHANA_LAPILLUS","perHourStr":"08:06","perDate":20220926,"groupName":"Lapillus","artistName":"Shana","countTotal":3,"gerHourStr":"15:06","gerHour":1506,"perHour":806,"gerDateStr":"26/09/2022"}
+    ,{"gerDate":20221018,"perDateStr":"18/10/2022","count1":15,"count2":12,"imageName":"SHEON_BILLLIE","perHourStr":"00:48","perDate":20221018,"groupName":"Billlie","artistName":"Sheon","countTotal":27,"gerHourStr":"07:48","gerHour":748,"perHour":48,"gerDateStr":"18/10/2022"}
+    ,{"gerDate":20220819,"perDateStr":"19/08/2022","count1":4,"count2":1,"imageName":"SHUHUA_GIDLE","perHourStr":"09:36","perDate":20220819,"groupName":"(g)i-dle","artistName":"Shuhua","countTotal":5,"gerHourStr":"16:36","gerHour":1636,"perHour":936,"gerDateStr":"19/08/2022"}
+    ,{"gerDate":20221010,"perDateStr":"10/10/2022","count1":9,"count2":3,"imageName":"SIEUN_STAYC","perHourStr":"16:43","perDate":20221010,"groupName":"Stayc","artistName":"Sieun","countTotal":12,"gerHourStr":"23:43","gerHour":2343,"perHour":1643,"gerDateStr":"10/10/2022"}
+    ,{"gerDate":20220710,"perDateStr":"10/07/2022","count1":3,"count2":0,"imageName":"SIHYEON_EVERGLOW","perHourStr":"11:29","perDate":20220710,"groupName":"Everglow","artistName":"Sihyeon","countTotal":3,"gerHourStr":"18:29","gerHour":1829,"perHour":1129,"gerDateStr":"10/07/2022"}
+    ,{"gerDate":20221206,"perDateStr":"06/12/2022","count1":8,"count2":0,"imageName":"SIHYEON_CSR","perHourStr":"15:29","perDate":20221206,"groupName":"CSR","artistName":"Sihyeon","countTotal":8,"gerHourStr":"21:29","gerHour":2129,"perHour":1529,"gerDateStr":"06/12/2022"}
+    ,{"gerDate":20221230,"perDateStr":"30/12/2022","count1":43,"count2":10,"imageName":"SINB_VIVIZ","perHourStr":"10:21","perDate":20221230,"groupName":"VIVIZ","artistName":"SinB","countTotal":53,"gerHourStr":"16:21","gerHour":1621,"perHour":1021,"gerDateStr":"30/12/2022"}
+    ,{"gerDate":20221121,"perDateStr":"21/11/2022","count1":2,"count2":0,"imageName":"SIYEON_DREAMCATCHER","perHourStr":"09:56","perDate":20221121,"groupName":"Dreamcatcher","artistName":"Siyeon","countTotal":2,"gerHourStr":"15:56","gerHour":1556,"perHour":956,"gerDateStr":"21/11/2022"}
+    ,{"gerDate":20220908,"perDateStr":"08/09/2022","count1":2,"count2":2,"imageName":"SIYOON_BILLLIE","perHourStr":"06:21","perDate":20220908,"groupName":"Billlie","artistName":"Siyoon","countTotal":4,"gerHourStr":"13:21","gerHour":1321,"perHour":621,"gerDateStr":"08/09/2022"}
+    ,{"gerDate":20221213,"perDateStr":"13/12/2022","count1":24,"count2":9,"imageName":"SOEUN_WEEEKLY","perHourStr":"01:10","perDate":20221213,"groupName":"Weeekly","artistName":"Soeun","countTotal":33,"gerHourStr":"07:10","gerHour":710,"perHour":110,"gerDateStr":"13/12/2022"}
+    ,{"gerDate":20220510,"perDateStr":"10/05/2022","count1":1,"count2":0,"imageName":"SOHEE_ICHILLIN","perHourStr":"08:32","perDate":20220510,"groupName":"ichillin","artistName":"Sohee","countTotal":1,"gerHourStr":"15:32","gerHour":1532,"perHour":832,"gerDateStr":"10/05/2022"}
+    ,{"gerDate":20221206,"perDateStr":"06/12/2022","count1":0,"count2":1,"imageName":"SOHEE_ALICE","perHourStr":"01:54","perDate":20221206,"groupName":"Alice","artistName":"Sohee","countTotal":1,"gerHourStr":"07:54","gerHour":754,"perHour":154,"gerDateStr":"06/12/2022"}
+    ,{"gerDate":20221130,"perDateStr":"30/11/2022","count1":3,"count2":0,"imageName":"SOMI_SOLOIST","perHourStr":"12:49","perDate":20221130,"groupName":"soloist","artistName":"Somi","countTotal":3,"gerHourStr":"18:49","gerHour":1849,"perHour":1249,"gerDateStr":"30/11/2022"}
+    ,{"gerDate":20220609,"perDateStr":"09/06/2022","count1":2,"count2":0,"imageName":"SOODAM_SECRETNUMBER","perHourStr":"13:59","perDate":20220609,"groupName":"Secret Number","artistName":"Soodam","countTotal":2,"gerHourStr":"20:59","gerHour":2059,"perHour":1359,"gerDateStr":"09/06/2022"}
+    ,{"gerDate":20220822,"perDateStr":"21/08/2022","count1":3,"count2":0,"imageName":"SOOJIN_WEEEKLY","perHourStr":"19:00","perDate":20220821,"groupName":"Weeekly","artistName":"Soojin","countTotal":3,"gerHourStr":"02:00","gerHour":200,"perHour":1900,"gerDateStr":"22/08/2022"}
+    ,{"gerDate":20221029,"perDateStr":"29/10/2022","count1":2,"count2":1,"imageName":"SORA_WOOAH","perHourStr":"11:57","perDate":20221029,"groupName":"woo!ah!","artistName":"Sora","countTotal":3,"gerHourStr":"18:57","gerHour":1857,"perHour":1157,"gerDateStr":"29/10/2022"}
+    ,{"gerDate":20221029,"perDateStr":"29/10/2022","count1":2,"count2":6,"imageName":"SOWON_GFRIEND","perHourStr":"00:56","perDate":20221029,"groupName":"Gfriend","artistName":"Sowon","countTotal":8,"gerHourStr":"07:56","gerHour":756,"perHour":56,"gerDateStr":"29/10/2022"}
+    ,{"gerDate":20220218,"perDateStr":"18/02/2022","count1":1,"count2":0,"imageName":"SOYEON_GIDLE","perHourStr":"11:22","perDate":20220218,"groupName":"(g)i-dle","artistName":"Soyeon","countTotal":1,"gerHourStr":"17:22","gerHour":1722,"perHour":1122,"gerDateStr":"18/02/2022"}
+    ,{"gerDate":20220910,"perDateStr":"09/09/2022","count1":2,"count2":0,"imageName":"SUA_PIXY","perHourStr":"18:52","perDate":20220909,"groupName":"Pixy","artistName":"Sua","countTotal":2,"gerHourStr":"01:52","gerHour":152,"perHour":1852,"gerDateStr":"10/09/2022"}
+    ,{"gerDate":20221231,"perDateStr":"31/12/2022","count1":1,"count2":12,"imageName":"SUA_DREAMCATCHER","perHourStr":"03:57","perDate":20221231,"groupName":"Dreamcatcher","artistName":"Sua","countTotal":13,"gerHourStr":"09:57","gerHour":957,"perHour":357,"gerDateStr":"31/12/2022"}
+    ,{"gerDate":20221206,"perDateStr":"06/12/2022","count1":2,"count2":0,"imageName":"SUA_CSR","perHourStr":"03:50","perDate":20221206,"groupName":"CSR","artistName":"Sua","countTotal":2,"gerHourStr":"09:50","gerHour":950,"perHour":350,"gerDateStr":"06/12/2022"}
+    ,{"gerDate":20221126,"perDateStr":"26/11/2022","count1":4,"count2":3,"imageName":"SUHYEON_BILLLIE","perHourStr":"12:20","perDate":20221126,"groupName":"Billlie","artistName":"Suhyeon","countTotal":7,"gerHourStr":"18:20","gerHour":1820,"perHour":1220,"gerDateStr":"26/11/2022"}
+    ,{"gerDate":20221108,"perDateStr":"07/11/2022","count1":8,"count2":0,"imageName":"SULLYOON_NMIXX","perHourStr":"20:56","perDate":20221107,"groupName":"NMIXX","artistName":"Sullyoon","countTotal":8,"gerHourStr":"02:56","gerHour":256,"perHour":2056,"gerDateStr":"08/11/2022"}
+    ,{"gerDate":20221214,"perDateStr":"14/12/2022","count1":15,"count2":15,"imageName":"SUMIN_STAYC","perHourStr":"17:46","perDate":20221214,"groupName":"Stayc","artistName":"Sumin","countTotal":30,"gerHourStr":"23:46","gerHour":2346,"perHour":1746,"gerDateStr":"14/12/2022"}
+    ,{"gerDate":20221123,"perDateStr":"23/11/2022","count1":7,"count2":5,"imageName":"SUMIN_DREAMNOTE","perHourStr":"12:40","perDate":20221123,"groupName":"Dream Note","artistName":"Sumin","countTotal":12,"gerHourStr":"18:40","gerHour":1840,"perHour":1240,"gerDateStr":"23/11/2022"}
+    ,{"gerDate":20220328,"perDateStr":"27/03/2022","count1":2,"count2":0,"imageName":"SUYUN_ROCKETPUNCH","perHourStr":"18:33","perDate":20220327,"groupName":"Rocket Punch","artistName":"Suyun","countTotal":2,"gerHourStr":"01:33","gerHour":133,"perHour":1833,"gerDateStr":"28/03/2022"}
+    ,{"gerDate":20220912,"perDateStr":"12/09/2022","count1":2,"count2":0,"imageName":"SWAN_PURPLEKISS","perHourStr":"00:11","perDate":20220912,"groupName":"Purple Kiss","artistName":"Swan","countTotal":2,"gerHourStr":"07:11","gerHour":711,"perHour":11,"gerDateStr":"12/09/2022"}
+    ,{"gerDate":20220920,"perDateStr":"20/09/2022","count1":7,"count2":1,"imageName":"TSUKI_BILLLIE","perHourStr":"16:26","perDate":20220920,"groupName":"Billlie","artistName":"Tsuki","countTotal":8,"gerHourStr":"23:26","gerHour":2326,"perHour":1626,"gerDateStr":"20/09/2022"}
+    ,{"gerDate":20221005,"perDateStr":"04/10/2022","count1":1,"count2":3,"imageName":"TZUYU_TWICE","perHourStr":"17:55","perDate":20221004,"groupName":"Twice","artistName":"Tzuyu","countTotal":4,"gerHourStr":"00:55","gerHour":55,"perHour":1755,"gerDateStr":"05/10/2022"}
+    ,{"gerDate":20221229,"perDateStr":"29/12/2022","count1":11,"count2":3,"imageName":"UMJI_VIVIZ","perHourStr":"11:59","perDate":20221229,"groupName":"VIVIZ","artistName":"Umji","countTotal":14,"gerHourStr":"17:59","gerHour":1759,"perHour":1159,"gerDateStr":"29/12/2022"}
+    ,{"gerDate":20220706,"perDateStr":"05/07/2022","count1":1,"count2":0,"imageName":"VIVI_LOONA","perHourStr":"20:46","perDate":20220705,"groupName":"LOONA","artistName":"Vivi","countTotal":1,"gerHourStr":"03:46","gerHour":346,"perHour":2046,"gerDateStr":"06/07/2022"}
+    ,{"gerDate":20220722,"perDateStr":"22/07/2022","count1":2,"count2":0,"imageName":"WINTER_AESPA","perHourStr":"13:59","perDate":20220722,"groupName":"aespa","artistName":"Winter","countTotal":2,"gerHourStr":"20:59","gerHour":2059,"perHour":1359,"gerDateStr":"22/07/2022"}
+    ,{"gerDate":20221224,"perDateStr":"24/12/2022","count1":35,"count2":25,"imageName":"WONYOUNG_IVE","perHourStr":"05:13","perDate":20221224,"groupName":"IVE","artistName":"Wonyoung","countTotal":60,"gerHourStr":"11:13","gerHour":1113,"perHour":513,"gerDateStr":"24/12/2022"}
+    ,{"gerDate":20221124,"perDateStr":"24/11/2022","count1":6,"count2":1,"imageName":"WOOYEON_WOOAH","perHourStr":"07:57","perDate":20221124,"groupName":"woo!ah!","artistName":"Wooyeon","countTotal":7,"gerHourStr":"13:57","gerHour":1357,"perHour":757,"gerDateStr":"24/11/2022"}
+    ,{"gerDate":20221230,"perDateStr":"30/12/2022","count1":31,"count2":12,"imageName":"XIAOTING_KEP1ER","perHourStr":"14:25","perDate":20221230,"groupName":"Kep1er","artistName":"Xiaoting","countTotal":43,"gerHourStr":"20:25","gerHour":2025,"perHour":1425,"gerDateStr":"30/12/2022"}
+    ,{"gerDate":20221227,"perDateStr":"26/12/2022","count1":11,"count2":5,"imageName":"YEJI_ITZY","perHourStr":"21:38","perDate":20221226,"groupName":"ITZY","artistName":"Yeji","countTotal":16,"gerHourStr":"03:38","gerHour":338,"perHour":2138,"gerDateStr":"27/12/2022"}
+    ,{"gerDate":20221002,"perDateStr":"02/10/2022","count1":5,"count2":0,"imageName":"YEJU_ICHILLIN","perHourStr":"10:42","perDate":20221002,"groupName":"ichillin","artistName":"Yeju","countTotal":5,"gerHourStr":"17:42","gerHour":1742,"perHour":1042,"gerDateStr":"02/10/2022"}
+    ,{"gerDate":20220719,"perDateStr":"19/07/2022","count1":2,"count2":0,"imageName":"YEL_H1KEY","perHourStr":"08:47","perDate":20220719,"groupName":"H1-KEY","artistName":"Yel","countTotal":2,"gerHourStr":"15:47","gerHour":1547,"perHour":847,"gerDateStr":"19/07/2022"}
+    ,{"gerDate":20221214,"perDateStr":"14/12/2022","count1":2,"count2":0,"imageName":"YENA_SOLOIST","perHourStr":"14:22","perDate":20221214,"groupName":"soloist","artistName":"Yena","countTotal":2,"gerHourStr":"20:22","gerHour":2022,"perHour":1422,"gerDateStr":"14/12/2022"}
+    ,{"gerDate":20221023,"perDateStr":"22/10/2022","count1":31,"count2":6,"imageName":"YEOJIN_LOONA","perHourStr":"22:15","perDate":20221022,"groupName":"LOONA","artistName":"Yeojin","countTotal":37,"gerHourStr":"05:15","gerHour":515,"perHour":2215,"gerDateStr":"23/10/2022"}
+    ,{"gerDate":20221022,"perDateStr":"22/10/2022","count1":6,"count2":0,"imageName":"YEONHEE_ROCKETPUNCH","perHourStr":"01:26","perDate":20221022,"groupName":"Rocket Punch","artistName":"Yeonhee","countTotal":6,"gerHourStr":"08:26","gerHour":826,"perHour":126,"gerDateStr":"22/10/2022"}
+    ,{"gerDate":20220708,"perDateStr":"07/07/2022","count1":1,"count2":3,"imageName":"YEONJUNG_WJSN","perHourStr":"23:38","perDate":20220707,"groupName":"WJSN","artistName":"Yeonjung","countTotal":4,"gerHourStr":"06:38","gerHour":638,"perHour":2338,"gerDateStr":"08/07/2022"}
+    ,{"gerDate":20220825,"perDateStr":"24/08/2022","count1":2,"count2":1,"imageName":"YEOREUM_WJSN","perHourStr":"21:51","perDate":20220824,"groupName":"WJSN","artistName":"Yeoreum","countTotal":3,"gerHourStr":"04:51","gerHour":451,"perHour":2151,"gerDateStr":"25/08/2022"}
+    ,{"gerDate":20221220,"perDateStr":"20/12/2022","count1":2,"count2":1,"imageName":"YERIN_GFRIEND","perHourStr":"00:58","perDate":20221220,"groupName":"Gfriend","artistName":"Yerin","countTotal":3,"gerHourStr":"06:58","gerHour":658,"perHour":58,"gerDateStr":"20/12/2022"}
+    ,{"gerDate":20221219,"perDateStr":"19/12/2022","count1":4,"count2":0,"imageName":"YESEO_KEP1ER","perHourStr":"11:19","perDate":20221219,"groupName":"Kep1er","artistName":"Yeseo","countTotal":4,"gerHourStr":"17:19","gerHour":1719,"perHour":1119,"gerDateStr":"19/12/2022"}
+    ,{"gerDate":20221129,"perDateStr":"29/11/2022","count1":7,"count2":5,"imageName":"YIREN_EVERGLOW","perHourStr":"07:48","perDate":20221129,"groupName":"Everglow","artistName":"Yiren","countTotal":12,"gerHourStr":"13:48","gerHour":1348,"perHour":748,"gerDateStr":"29/11/2022"}
+    ,{"gerDate":20221123,"perDateStr":"23/11/2022","count1":6,"count2":0,"imageName":"YOOA_OHMYGIRL","perHourStr":"09:03","perDate":20221123,"groupName":"Oh My Girl","artistName":"Yooa","countTotal":6,"gerHourStr":"15:03","gerHour":1503,"perHour":903,"gerDateStr":"23/11/2022"}
+    ,{"gerDate":20221230,"perDateStr":"30/12/2022","count1":7,"count2":7,"imageName":"YOOHYEON_DREAMCATCHER","perHourStr":"00:45","perDate":20221230,"groupName":"Dreamcatcher","artistName":"Yoohyeon","countTotal":14,"gerHourStr":"06:45","gerHour":645,"perHour":45,"gerDateStr":"30/12/2022"}
+    ,{"gerDate":20221208,"perDateStr":"08/12/2022","count1":19,"count2":1,"imageName":"YOON_STAYC","perHourStr":"10:36","perDate":20221208,"groupName":"Stayc","artistName":"Yoon","countTotal":20,"gerHourStr":"16:36","gerHour":1636,"perHour":1036,"gerDateStr":"08/12/2022"}
+    ,{"gerDate":20221103,"perDateStr":"02/11/2022","count1":1,"count2":0,"imageName":"YOOYEON_TRIPLES","perHourStr":"20:44","perDate":20221102,"groupName":"tripleS","artistName":"Yooyeon","countTotal":1,"gerHourStr":"02:44","gerHour":244,"perHour":2044,"gerDateStr":"03/11/2022"}
+    ,{"gerDate":20220821,"perDateStr":"20/08/2022","count1":3,"count2":1,"imageName":"YOUI_DREAMNOTE","perHourStr":"19:24","perDate":20220820,"groupName":"Dream Note","artistName":"YOUI","countTotal":4,"gerHourStr":"02:24","gerHour":224,"perHour":1924,"gerDateStr":"21/08/2022"}
+    ,{"gerDate":20221222,"perDateStr":"22/12/2022","count1":8,"count2":0,"imageName":"YOUNGEUN_KEP1ER","perHourStr":"07:01","perDate":20221222,"groupName":"Kep1er","artistName":"Youngeun","countTotal":8,"gerHourStr":"13:01","gerHour":1301,"perHour":701,"gerDateStr":"22/12/2022"}
+    ,{"gerDate":20220813,"perDateStr":"13/08/2022","count1":4,"count2":0,"imageName":"YUBIN_OHMYGIRL","perHourStr":"13:49","perDate":20220813,"groupName":"Oh My Girl","artistName":"Yubin","countTotal":4,"gerHourStr":"20:49","gerHour":2049,"perHour":1349,"gerDateStr":"13/08/2022"}
+    ,{"gerDate":20221028,"perDateStr":"28/10/2022","count1":3,"count2":0,"imageName":"YUE_LAPILLUS","perHourStr":"04:03","perDate":20221028,"groupName":"Lapillus","artistName":"Yue","countTotal":3,"gerHourStr":"11:03","gerHour":1103,"perHour":403,"gerDateStr":"28/10/2022"}
+    ,{"gerDate":20220306,"perDateStr":"06/03/2022","count1":0,"count2":1,"imageName":"YUJEONG_BRAVEGIRLS","perHourStr":"05:05","perDate":20220306,"groupName":"Brave Girls","artistName":"Yujeong","countTotal":1,"gerHourStr":"11:05","gerHour":1105,"perHour":505,"gerDateStr":"06/03/2022"}
+    ,{"gerDate":20221224,"perDateStr":"24/12/2022","count1":12,"count2":2,"imageName":"YUJIN_IVE","perHourStr":"14:27","perDate":20221224,"groupName":"IVE","artistName":"Yujin","countTotal":14,"gerHourStr":"20:27","gerHour":2027,"perHour":1427,"gerDateStr":"24/12/2022"}
+    ,{"gerDate":20221219,"perDateStr":"18/12/2022","count1":3,"count2":0,"imageName":"YUJIN_KEP1ER","perHourStr":"19:27","perDate":20221218,"groupName":"Kep1er","artistName":"Yujin","countTotal":3,"gerHourStr":"01:27","gerHour":127,"perHour":1927,"gerDateStr":"19/12/2022"}
+    ,{"gerDate":20221212,"perDateStr":"11/12/2022","count1":3,"count2":0,"imageName":"YUJU_GFRIEND","perHourStr":"18:16","perDate":20221211,"groupName":"Gfriend","artistName":"Yuju","countTotal":3,"gerHourStr":"00:16","gerHour":16,"perHour":1816,"gerDateStr":"12/12/2022"}
+    ,{"gerDate":20221116,"perDateStr":"15/11/2022","count1":3,"count2":0,"imageName":"YUKI_PURPLEKISS","perHourStr":"19:34","perDate":20221115,"groupName":"Purple Kiss","artistName":"Yuki","countTotal":3,"gerHourStr":"01:34","gerHour":134,"perHour":1934,"gerDateStr":"16/11/2022"}
+    ,{"gerDate":20221227,"perDateStr":"27/12/2022","count1":6,"count2":2,"imageName":"YUNA_ITZY","perHourStr":"10:51","perDate":20221227,"groupName":"ITZY","artistName":"Yuna","countTotal":8,"gerHourStr":"16:51","gerHour":1651,"perHour":1051,"gerDateStr":"27/12/2022"}
+    ,{"gerDate":20221226,"perDateStr":"26/12/2022","count1":13,"count2":3,"imageName":"YUNJIN_LESSERAFIM","perHourStr":"10:53","perDate":20221226,"groupName":"LE SSERAFIM","artistName":"Yunjin","countTotal":16,"gerHourStr":"16:53","gerHour":1653,"perHour":1053,"gerDateStr":"26/12/2022"}
+    ,{"gerDate":20220905,"perDateStr":"05/09/2022","count1":5,"count2":0,"imageName":"YUNKYOUNG_ROCKETPUNCH","perHourStr":"00:03","perDate":20220905,"groupName":"Rocket Punch","artistName":"Yunkyoung","countTotal":5,"gerHourStr":"07:03","gerHour":703,"perHour":3,"gerDateStr":"05/09/2022"}
+    ,{"gerDate":20221122,"perDateStr":"22/11/2022","count1":8,"count2":5,"imageName":"YUQI_GIDLE","perHourStr":"16:03","perDate":20221122,"groupName":"(g)i-dle","artistName":"Yuqi","countTotal":13,"gerHourStr":"22:03","gerHour":2203,"perHour":1603,"gerDateStr":"22/11/2022"}
+    ,{"gerDate":20221202,"perDateStr":"02/12/2022","count1":3,"count2":0,"imageName":"YURI_SOLOIST","perHourStr":"08:05","perDate":20221202,"groupName":"soloist","artistName":"Yuri","countTotal":3,"gerHourStr":"14:05","gerHour":1405,"perHour":805,"gerDateStr":"02/12/2022"}
+    ,{"gerDate":20220825,"perDateStr":"25/08/2022","count1":6,"count2":0,"imageName":"YVES_LOONA","perHourStr":"01:03","perDate":20220825,"groupName":"LOONA","artistName":"Yves","countTotal":6,"gerHourStr":"08:03","gerHour":803,"perHour":103,"gerDateStr":"25/08/2022"}
+    ,{"gerDate":20220902,"perDateStr":"01/09/2022","count1":2,"count2":0,"imageName":"ZIN_BUGABOO","perHourStr":"19:45","perDate":20220901,"groupName":"bugAboo","artistName":"Zin","countTotal":2,"gerHourStr":"02:45","gerHour":245,"perHour":1945,"gerDateStr":"02/09/2022"}
+    ,{"gerDate":20221009,"perDateStr":"09/10/2022","count1":5,"count2":4,"imageName":"ZOA_WEEEKLY","perHourStr":"16:43","perDate":20221009,"groupName":"Weeekly","artistName":"Zoa","countTotal":9,"gerHourStr":"23:43","gerHour":2343,"perHour":1643,"gerDateStr":"09/10/2022"}
     ];
     

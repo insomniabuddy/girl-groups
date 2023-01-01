@@ -23,12 +23,6 @@ $(function () {
     IdolHistory.populate();
 });
 
-IdolHistory.calculateGap = function (prevDate, currDate) {
-    var prevArr = prevDate.split('_');
-    var currArr = currDate.split('_');
-    return IdolCommon.dateDifference(prevArr[0], prevArr[1], currArr[0], currArr[1]);
-};
-
 IdolHistory.populate = function () {
     if (!currentHistory || currentHistory.length == 0) {
         currentHistory = historyDates;
@@ -58,7 +52,7 @@ IdolHistory.populate = function () {
             first = false;
             string += '<td class="text-center">---</td>';
         } else {
-            var gap = IdolHistory.calculateGap(prevDate, elem.perDate + '_' + elem.perHour);
+            var gap = IdolCommon.calculateGap(prevDate, elem.perDate + '_' + elem.perHour);
             string += '<td class="text-center">' + gap + '</td>';
         }
 

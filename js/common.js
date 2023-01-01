@@ -3,7 +3,7 @@ if (!window.IdolCommon) {
 }
 
 $(function () {
-    $('#last-updated').text('Last updated: 21/12/2022');
+    $('#last-updated').text('Last updated: 01/01/2023');
 });
 
 IdolCommon.getTableCss = function (count) {
@@ -160,4 +160,31 @@ IdolCommon.dateDifference = function (dateStartStr, hourStartStr, dateEndStr, ho
     }
 
     return string;
+};
+
+IdolCommon.getBothDates = function (perDateStr, perHourStr, gerDateStr, gerHourStr) {
+    return perDateStr + ' ' + perHourStr + ' (GMT-5)<br/>' + gerDateStr + ' ' + gerHourStr + ' (GMT+2)';
+};
+
+IdolCommon.calculateGap = function (prevDate, currDate) {
+    var prevArr = prevDate.split('_');
+    var currArr = currDate.split('_');
+    return IdolCommon.dateDifference(prevArr[0], prevArr[1], currArr[0], currArr[1]);
+};
+
+IdolCommon.getTimePassed = function (perDate, perHour, gerDate, gerHour) {
+    var date = new Date();
+    var theDate = perDate;
+    var theHour = perHour;
+    if (!date.toString().includes('GMT-0500')) {
+        theDate = gerDate;
+        theHour = gerHour;
+    }
+    var currentDate = date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+    var currentHour = date.getHours() * 100 + date.getMinutes();
+
+    var prevDate = theDate + '_' + theHour;
+    var todayDate = currentDate + '_' + currentHour;
+
+    return IdolCommon.calculateGap(prevDate, todayDate);
 };
