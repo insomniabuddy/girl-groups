@@ -5,6 +5,7 @@ groupNameDir = 'asc';
 counter1Dir = 'asc';
 counter2Dir = 'asc';
 counterTotalDir = 'asc';
+timePassedDir = 'asc';
 
 if (!window.IdolCounters) {
     window.IdolCounters = {};
@@ -21,6 +22,7 @@ $(function () {
     $('#obCounter1').click(IdolCounters.orderByCounter1);
     $('#obCounter2').click(IdolCounters.orderByCounter2);
     $('#obCounterTotal').click(IdolCounters.orderByCounterTotal);
+    $('#obTimePassed').click(IdolCounters.orderByTimePassed);
 
     IdolCounters.populate();
 });
@@ -281,6 +283,18 @@ IdolCounters.orderByCounterTotal = function () {
     currentCounter.sort((a, b) => counterTotalDir == 'asc' ? a.countTotal - b.countTotal : b.countTotal - a.countTotal);
 
     counterTotalDir = counterTotalDir == 'asc' ? 'desc' : 'asc';
+
+    IdolCounters.populate();
+};
+
+IdolCounters.orderByTimePassed = function() {
+    if (!currentCounter || currentCounter.length == 0) {
+        currentCounter = counter;
+    }
+
+    currentCounter.sort((a, b) => timePassedDir == 'asc' ? a.timePassedOrder - b.timePassedOrder : b.timePassedOrder - a.timePassedOrder);
+
+    timePassedDir = timePassedDir == 'asc' ? 'desc' : 'asc';
 
     IdolCounters.populate();
 };
