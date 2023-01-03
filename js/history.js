@@ -1589,5 +1589,6 @@ const historyDates = [
     ,{"gerDate":20230102,"perDateStr":"01/01/2023","imageName":"SINB_VIVIZ","perHourStr":"21:43","perDate":20230101,"groupName":"VIVIZ","person":1,"historyId":1588,"artistName":"SinB","gerHourStr":"03:43","gerHour":343,"perHour":2143,"gerDateStr":"02/01/2023"}
     ,{"gerDate":20230102,"perDateStr":"02/01/2023","imageName":"JIMIN_CLASSY","perHourStr":"08:49","perDate":20230102,"groupName":"CLASS:y","person":1,"historyId":1589,"artistName":"Jimin","gerHourStr":"14:49","gerHour":1449,"perHour":849,"gerDateStr":"02/01/2023"}
     ,{"gerDate":20230102,"perDateStr":"02/01/2023","imageName":"JISOO_BLACKPINK","perHourStr":"11:56","perDate":20230102,"groupName":"Blackpink","person":1,"historyId":1590,"artistName":"Jisoo","gerHourStr":"17:56","gerHour":1756,"perHour":1156,"gerDateStr":"02/01/2023"}
+    ,{"gerDate":20230103,"perDateStr":"02/01/2023","imageName":"YEJI_ITZY","perHourStr":"19:21","perDate":20230102,"groupName":"ITZY","person":1,"historyId":1591,"artistName":"Yeji","gerHourStr":"01:21","gerHour":121,"perHour":1921,"gerDateStr":"03/01/2023"}
     ];
     
