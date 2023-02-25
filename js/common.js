@@ -3,7 +3,7 @@ if (!window.IdolCommon) {
 }
 
 $(function () {
-    $('#last-updated').text('Last updated: 06/02/2023');
+    $('#last-updated').text('Last updated: 25/02/2023');
 });
 
 IdolCommon.getTableCss = function (count) {
