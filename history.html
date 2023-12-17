@@ -1,128 +1,161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/common.css">
-    <title>Insomnia Buddy's Girl Groups</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <title>Girl Groups</title>
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="counters.html" class="nav-link">Counters</a></li>
-                <li class="nav-item"><a href="artists.html" class="nav-link">Artists</a></li>
-                <li class="nav-item"><a href="history.html" class="nav-link active" aria-current="page">History</a></li>
-                <li class="nav-item"><a href="graphs.html" class="nav-link">Graphs</a></li>
-            </ul>
-        </header>
-    </div>
 
-    <div class="container div-labels">
-        <div class="row p-2">
-            <div class="col-sm-4">
-                <label for="artistName" class="form-label">Artist Name</label>
-                <input type="text" class="form-control" id="artistName" placeholder="Search by artist">
-            </div>
-            <div class="col-sm-4">
-                <label for="groupName" class="form-label">Group Name</label>
-                <input type="text" class="form-control" id="groupName" placeholder="Search by group">
-            </div>
-            <div class="col-sm-4">
-                <label for="person" class="form-label">By Person</label>
-                <select class="form-select" id="person">
-                    <option value="-1">All</option>
-                    <option value="1">Person 1</option>
-                    <option value="2">Person 2</option>
-                </select>
-            </div>
-        </div>
-        <div class="row p-2">
-            <div class="col-sm-4">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <label for="perDateStart" class="form-label">Date</label>
-                        <input type="text" class="form-control input-number" id="perDateStart" placeholder="Between">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="perDateEnd" class="form-label">&nbsp;</label>
-                        <input type="text" class="form-control input-number" id="perDateEnd" placeholder="And">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <label for="perHourStart" class="form-label">Hour</label>
-                        <input type="text" class="form-control input-number" id="perHourStart" placeholder="Between">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="perHourEnd" class="form-label">&nbsp;</label>
-                        <input type="text" class="form-control input-number" id="perHourEnd" placeholder="And">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <label for="gmt" class="form-label">By Timezone</label>
-                <select class="form-select" id="gmt">
-                    <option value="1">GMT -5</option>
-                    <option value="2">GMT +2</option>
-                </select>
-            </div>
-        </div>
-        <div class="row p-2">
-            <div class="col-sm-10">
-                <label>Order by:</label>
-                <a href="javascript:void(0);" id="obArtistName">Artist Name</a>
-                <a href="javascript:void(0);" id="obGroupName">Group Name</a>
-                <a href="javascript:void(0);" id="obPerDate">Date</a>
-                <a href="javascript:void(0);" id="obPerson">Person</a>
-            </div>
-            <div class="col-sm-2">
-                <div class="float-end">
-                    <button type="button" class="btn btn-success" id="btn-search">Search</button>
-                    <button type="button" class="btn btn-success" id="btn-clear">Clear</button>
-                </div>
-            </div>
-        </div>
-        <div class="table-responsive div-table p-2">
-            <table class="table table-bordered table-sm align-middle caption-top table-warning">
-                <caption>Search results <span id="last-updated"></span></caption>
-                <thead>
-                    <tr class="table-dark">
-                        <th scope="col" class="text-center">No.</th>
-                        <th scope="col" class="text-center">Pic</th>
-                        <th scope="col" class="text-center">Name</th>
-                        <th scope="col" class="text-center">Group</th>
-                        <th scope="col" class="text-center">Date (GMT -5)</th>
-                        <th scope="col" class="text-center">Hour (GMT -5)</th>
-                        <th scope="col" class="text-center">Date (GMT +2)</th>
-                        <th scope="col" class="text-center">Hour (GMT +2)</th>
-                        <th scope="col" class="text-center">Person</th>
-                        <th scope="col" class="text-center">Gap</th>
-                    </tr>
-                </thead>
-                <tbody id="history-tbody">
-                </tbody>
-                <tfoot id="history-tfoot">
-                </tfoot>
-            </table>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Girl groups</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="counters.html">Counters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="artists.html">Artists</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="history.html">History</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="js/common.js"></script>
-    <script src="js/history.js"></script>
-    <script src="js/processHistory.js"></script>
+  <div class="container mt-4">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="name">Artist</label>
+          <input type="text" class="form-control" id="artist-txt" placeholder="Enter Name">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="date">Group</label>
+          <input type="text" class="form-control" id="group-txt" placeholder="Enter Group">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="dropdown">Person</label>
+          <select class="form-control" id="person-select">
+            <option value="0">Any</option>
+            <option value="1">Person 1</option>
+            <option value="2">Person 2</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="numericRange">Date</label>
+          <div class="input-group">
+            <input type="date" class="form-control" id="date-from-txt">
+            <div class="input-group-append">
+              <span class="input-group-text">to</span>
+            </div>
+            <input type="date" class="form-control" id="date-to-txt">
+          </div>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="numericRange">Hour</label>
+          <div class="input-group">
+            <input type="time" class="form-control" id="time-from-txt">
+            <div class="input-group-append">
+              <span class="input-group-text">to</span>
+            </div>
+            <input type="time" class="form-control" id="time-to-txt">
+          </div>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="dropdown">Timezone</label>
+          <select class="form-control" id="timezone-select">
+            <option value="1">GMT -5</option>
+            <option value="2">GMT +2</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-2">
+          <label for="name">Page</label>
+          <input type="number" class="form-control" id="page-txt">
+        </div>
+        <div class="form-group col-md-2">
+          <label for="date">Results per page</label>
+          <input type="number" class="form-control" id="results-per-page-txt">
+        </div>
+        <div class="form-group col-md-8">
+        </div>
+      </div>
+
+      <div class="form-row mb-3">
+        <div class="col-md-9">
+          <label for="orderBy">Order by: </label>
+          <a id="order-by-artist-link" href="javascript:void(0);">Artist</a> |
+          <a id="order-by-group-link" href="javascript:void(0);">Group</a> |
+          <a id="order-by-date-link" href="javascript:void(0);">Date</a> |
+          <a id="order-by-person-link" href="javascript:void(0);">Person</a>
+        </div>
+        <div class="form-group col-md-3 d-flex justify-content-end">
+          <button id="search-button" type="button" class="btn btn-primary">Search</button>
+          <button id="clear-button" type="button" class="btn btn-secondary ml-2">Clear</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+  <div id="history-container" class="container mt-4">
+    <div class="search-results-label">Search results: 2</div>
+
+    <div class="card">
+      <div class="row no-gutters">
+        <div class="col-md-2">
+          <img src="https://via.placeholder.com/80" class="card-img" alt="Profile Pic">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12">
+                <h5 class="card-title">1. SinB - VIVIZ</h5>
+              </div>
+              <div class="col-md-4">
+                <p>Date (GMT -5): <b>01/10/2023</b></p>
+              </div>
+              <div class="col-md-5">
+                <p>Hour (GMT -5): <b>15:15</b></p>
+              </div>
+              <div class="col-md-4">
+                <p>Date (GMT +2): <b>01/10/2023</b></p>
+              </div>
+              <div class="col-md-5">
+                <p>Hour (GMT +2): <b>15:15</b></p>
+              </div>
+              <div class="col-md-12">
+                <p>Person: <b>1</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/history-api.js"></script>
+
 </body>
 
 </html>

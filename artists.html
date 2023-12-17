@@ -1,216 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/common.css">
-    <title>Insomnia Buddy's Girl Groups</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <title>Girl Groups</title>
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="counters.html" class="nav-link">Counters</a></li>
-                <li class="nav-item"><a href="artists.html" class="nav-link active" aria-current="page">Artists</a></li>
-                <li class="nav-item"><a href="history.html" class="nav-link">History</a></li>
-                <li class="nav-item"><a href="graphs.html" class="nav-link">Graphs</a></li>
-            </ul>
-        </header>
-    </div>
 
-    <div class="container div-labels">
-        <div class="row p-2">
-            <div class="col-sm-3">
-                <label for="artistName" class="form-label">Artist Name</label>
-                <input type="text" class="form-control" id="artistName" placeholder="Search by artist">
-            </div>
-            <div class="col-sm-3">
-                <label for="groupName" class="form-label">Group Name</label>
-                <input type="text" class="form-control" id="groupName" placeholder="Search by group">
-            </div>
-            <div class="col-sm-2">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <label for="ageStart" class="form-label">Age</label>
-                        <input type="text" class="form-control input-number" id="ageStart" placeholder="Between">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="ageEnd" class="form-label">&nbsp;</label>
-                        <input type="text" class="form-control input-number" id="ageEnd" placeholder="And">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <label for="zodiac" class="form-label">Zodiac</label>
-                <select class="form-select" id="zodiac">
-                    <option value="-1">All</option>
-                    <option value="1">ARIES</option>
-                    <option value="2">TAURUS</option>
-                    <option value="3">GEMINI</option>
-                    <option value="4">CANCER</option>
-                    <option value="5">LEO</option>
-                    <option value="6">VIRGO</option>
-                    <option value="7">LIBRA</option>
-                    <option value="8">SCORPIUS</option>
-                    <option value="9">SAGITTARIUS</option>
-                    <option value="10">CAPRICORN</option>
-                    <option value="11">AQUARIUS</option>
-                    <option value="12">PISCES</option>
-                </select>
-            </div>
-            <div class="col-sm-2">
-                <label for="chineseZodiac" class="form-label">Chinese Zodiac</label>
-                <select class="form-select" id="chineseZodiac">
-                    <option value="-1">All</option>
-                    <option value="1">RAT</option>
-                    <option value="2">OX</option>
-                    <option value="3">TIGER</option>
-                    <option value="4">RABBIT</option>
-                    <option value="5">DRAGON</option>
-                    <option value="6">SNAKE</option>
-                    <option value="7">HORSE</option>
-                    <option value="8">GOAT</option>
-                    <option value="9">MONKEY</option>
-                    <option value="10">ROOSTER</option>
-                    <option value="11">DOG</option>
-                    <option value="12">PIG</option>
-                </select>
-            </div>
-        </div>
-        <div class="row p-2">
-            <div class="col-sm-3">
-                <label for="positions" class="form-label">Positions</label>
-                <input type="text" class="form-control" id="positions" placeholder="Search by positions">
-            </div>
-            <div class="col-sm-3">
-                <label for="agency" class="form-label">Agency</label>
-                <input type="text" class="form-control" id="agency" placeholder="Search by agency">
-            </div>
-            <div class="col-sm-2">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <label for="birthDateStart" class="form-label">Birth Date</label>
-                        <input type="text" class="form-control input-number" id="birthDateStart" placeholder="Between">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="birthDateEnd" class="form-label">&nbsp;</label>
-                        <input type="text" class="form-control input-number" id="birthDateEnd" placeholder="And">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <label for="bloodType" class="form-label">Blood Type</label>
-                <select class="form-select" id="bloodType">
-                    <option value="-1">All</option>
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="O">O</option>
-                    <option value="AB">AB</option>
-                </select>
-            </div>
-            <div class="col-sm-2">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <label for="heightStart" class="form-label">Height</label>
-                        <input type="text" class="form-control input-number" id="heightStart" placeholder="Between">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="heightEnd" class="form-label">&nbsp;</label>
-                        <input type="text" class="form-control input-number" id="heightEnd" placeholder="And">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row p-2">
-            <div class="col-sm-3">
-                <label for="fandom" class="form-label">Fandom Name</label>
-                <input type="text" class="form-control" id="fandom" placeholder="Search by fandom">
-            </div>
-            <div class="col-sm-3">
-                <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control" id="city" placeholder="Search by city">
-            </div>
-            <div class="col-sm-2">
-                <label for="country" class="form-label">Country</label>
-                <input type="text" class="form-control" id="country" placeholder="Search by country">
-            </div>
-            <div class="col-sm-2">
-                <label for="bias" class="form-label">By Bias</label>
-                <select class="form-select" id="bias">
-                    <option value="-1">None</option>
-                    <option value="-2">All</option>
-                    <option value="1">Bias 1</option>
-                    <option value="2">Bias 2</option>
-                </select>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-        <div class="row p-2">
-            <div class="col-sm-10">
-                <label>Order by:</label>
-                <a href="javascript:void(0);" id="obArtistName">Artist Name</a>
-                <a href="javascript:void(0);" id="obGroupName">Group Name</a>
-                <a href="javascript:void(0);" id="obAge">Age</a>
-                <a href="javascript:void(0);" id="obZodiac">Zodiac</a>
-                <a href="javascript:void(0);" id="obChineseZodiac">Chinese Zodiac</a>
-                <a href="javascript:void(0);" id="obPositions">Positions</a>
-                <a href="javascript:void(0);" id="obAgency">Agency</a>
-                <a href="javascript:void(0);" id="obBirthDate">Birth Date</a>
-                <a href="javascript:void(0);" id="obBloodType">Blood Type</a>
-                <a href="javascript:void(0);" id="obHeight">Height</a>
-                <a href="javascript:void(0);" id="obFandom">Fandom</a>
-                <a href="javascript:void(0);" id="obCity">City</a>
-                <a href="javascript:void(0);" id="obCountry">Country</a>
-                <a href="javascript:void(0);" id="obBias">Bias</a>
-            </div>
-            <div class="col-sm-2">
-                <div class="float-end">
-                    <button type="button" class="btn btn-success" id="btn-search">Search</button>
-                    <button type="button" class="btn btn-success" id="btn-clear">Clear</button>
-                </div>
-            </div>
-        </div>
-        <div class="table-responsive div-table p-2">
-            <table class="table table-bordered table-sm align-middle caption-top table-warning table-striped">
-                <caption>Search results <span id="last-updated"></span></caption>
-                <thead>
-                    <tr class="table-dark">
-                        <th scope="col" class="text-center">Pic</th>
-                        <th scope="col" class="text-center">Name</th>
-                        <th scope="col" class="text-center">Group</th>
-                        <th scope="col" class="text-center">Birth Date</th>
-                        <th scope="col" class="text-center">Age</th>
-                        <th scope="col" class="text-center">Zodiac</th>
-                        <th scope="col" class="text-center">Chinese Zodiac</th>
-                        <th scope="col" class="text-center">Agency</th>
-                        <th scope="col" class="text-center">Blood Type</th>
-                        <th scope="col" class="text-center">Height</th>
-                        <th scope="col" class="text-center">Fandom</th>
-                        <th scope="col" class="text-center">Positions</th>
-                        <th scope="col" class="text-center">City</th>
-                        <th scope="col" class="text-center">Country</th>
-                        <th scope="col" class="text-center">Bias</th>
-                    </tr>
-                </thead>
-                <tbody id="artists-tbody">
-                </tbody>
-            </table>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Girl groups</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="counters.html">Counters</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="artists.html">Artists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">History</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="js/common.js"></script>
-    <script src="js/artists.js"></script>
-    <script src="js/processArtists.js"></script>
+  <div class="container mt-4">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="name">Artist</label>
+          <input type="text" class="form-control" id="artist-txt" placeholder="Enter Name">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="date">Group</label>
+          <input type="text" class="form-control" id="group-txt" placeholder="Enter Group">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="numericRange">Age</label>
+          <div class="input-group">
+            <input type="number" class="form-control" id="age-from-txt" placeholder="From">
+            <div class="input-group-append">
+              <span class="input-group-text">to</span>
+            </div>
+            <input type="number" class="form-control" id="age-to-txt" placeholder="To">
+          </div>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="numericRange">Birthday</label>
+          <div class="input-group">
+            <input type="date" class="form-control" id="birthday-from-txt">
+            <div class="input-group-append">
+              <span class="input-group-text">to</span>
+            </div>
+            <input type="date" class="form-control" id="birthday-to-txt">
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="dropdown">Country</label>
+          <select class="form-control" id="country-select">
+          </select>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="dropdown">Zodiac</label>
+          <select class="form-control" id="zodiac-select">
+            <option value="0">Any</option>
+            <option value="1">Aries</option>
+            <option value="2">Taurus</option>
+            <option value="3">Gemini</option>
+            <option value="4">Cancer</option>
+            <option value="5">Leo</option>
+            <option value="6">Virgo</option>
+            <option value="7">Libra</option>
+            <option value="8">Scorpius</option>
+            <option value="9">Sagittarius</option>
+            <option value="10">Capricorn</option>
+            <option value="11">Aquarius</option>
+            <option value="12">Pisces</option>
+          </select>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="dropdown">Chinese Zodiac</label>
+          <select class="form-control" id="chinese-zodiac-select">
+            <option value="0">Any</option>
+            <option value="1">Rat</option>
+            <option value="2">Ox</option>
+            <option value="3">Tiger</option>
+            <option value="4">Rabbit</option>
+            <option value="5">Dragon</option>
+            <option value="6">Snake</option>
+            <option value="7">Horse</option>
+            <option value="8">Goat</option>
+            <option value="9">Monkey</option>
+            <option value="10">Rooster</option>
+            <option value="11">Dog</option>
+            <option value="12">Pig</option>
+          </select>
+        </div>
+        <div class="form-group col-md-3"></div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-2">
+          <label for="name">Page</label>
+          <input type="number" class="form-control" id="page-txt">
+        </div>
+        <div class="form-group col-md-2">
+          <label for="date">Results per page</label>
+          <input type="number" class="form-control" id="results-per-page-txt">
+        </div>
+        <div class="form-group col-md-8">
+        </div>
+      </div>
+
+      <div class="form-row mb-3">
+        <div class="col-md-9">
+          <label for="orderBy">Order by: </label>
+          <a id="order-by-artist-link" href="javascript:void(0);">Artist</a> |
+          <a id="order-by-group-link" href="javascript:void(0);">Group</a> |
+          <a id="order-by-age-link" href="javascript:void(0);">Age</a> |
+          <a id="order-by-birthday-link" href="javascript:void(0);">Birthday</a> |
+          <a id="order-by-country-link" href="javascript:void(0);">Country</a> |
+          <a id="order-by-zodiac-link" href="javascript:void(0);">Zodaic</a> |
+          <a id="order-by-chinese-zodiac-link" href="javascript:void(0);">Chinese Zodiac</a>
+        </div>
+        <div class="form-group col-md-3 d-flex justify-content-end">
+          <button id="search-button" type="button" class="btn btn-primary">Search</button>
+          <button id="clear-button" type="button" class="btn btn-secondary ml-2">Clear</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+  <div id="artists-container" class="container mt-4">
+    <div class="search-results-label">Search results: 2</div>
+
+    <div class="card">
+      <div class="row no-gutters">
+        <div class="col-md-2">
+          <img src="https://via.placeholder.com/80" class="card-img" alt="Profile Pic">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12">
+                <h5 class="card-title">SinB - VIVIZ</h5>
+              </div>
+              <div class="col-md-6">
+                <p>Count1: 10</p>
+              </div>
+              <div class="col-md-6">
+                <p>Count2: 15</p>
+              </div>
+              <div class="col-md-12">
+                <p>Total: 25</p>
+              </div>
+              <div class="col-md-6">
+                <p>Last Date: 2023-11-17</p>
+              </div>
+              <div class="col-md-6">
+                <p>Time Passed: 2 days</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination with top padding -->
+  <!-- <div class="container mt-4 pt-3">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <span class="page-link">Previous</span>
+        </li>
+        <li class="page-item active"><span class="page-link">1</span></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item pagination-dropdown">
+          <select class="custom-select">
+            <option selected>Results per page</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/countries.js"></script>
+  <script src="js/artists.js"></script>
+  <script src="js/artists-api.js"></script>
+
 </body>
 
 </html>
