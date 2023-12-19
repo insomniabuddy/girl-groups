@@ -2962,6 +2962,8 @@ const historyData = [
     , {"id":2960,"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","person":1,"perDateStr":"18/12/2023","perHourStr":"02:13","perDate":20231218,"perHour":213,"gerDateStr":"18/12/2023","gerHourStr":"08:13","gerDate":20231218,"gerHour":813}
     , {"id":2961,"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","person":1,"perDateStr":"18/12/2023","perHourStr":"17:40","perDate":20231218,"perHour":1740,"gerDateStr":"18/12/2023","gerHourStr":"23:40","gerDate":20231218,"gerHour":2340}
     , {"id":2962,"artistName":"Karina","groupName":"aespa","imageName":"KARINA_AESPA","person":1,"perDateStr":"18/12/2023","perHourStr":"21:23","perDate":20231218,"perHour":2123,"gerDateStr":"19/12/2023","gerHourStr":"03:23","gerDate":20231219,"gerHour":323}
+    , {"id":2963,"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","person":1,"perDateStr":"19/12/2023","perHourStr":"00:15","perDate":20231219,"perHour":15,"gerDateStr":"19/12/2023","gerHourStr":"06:15","gerDate":20231219,"gerHour":615}
+    , {"id":2964,"artistName":"Soeun","groupName":"Weeekly","imageName":"SOEUN_WEEEKLY","person":1,"perDateStr":"19/12/2023","perHourStr":"07:42","perDate":20231219,"perHour":742,"gerDateStr":"19/12/2023","gerHourStr":"13:42","gerDate":20231219,"gerHour":1342}
     
     ];
     

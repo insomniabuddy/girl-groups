@@ -143,7 +143,7 @@ const countersData = [
     , {"artistName":"Mire","groupName":"TRI.BE","imageName":"MIRE_TRIBE","counter1":5,"counter2":1,"counterTotal":6}
     , {"artistName":"Miso","groupName":"Dream Note","imageName":"MISO_DREAMNOTE","counter1":6,"counter2":2,"counterTotal":8}
     , {"artistName":"Miu","groupName":"Limelight","imageName":"MIU_LIMELIGHT","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","counter1":37,"counter2":12,"counterTotal":49}
+    , {"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","counter1":38,"counter2":12,"counterTotal":50}
     , {"artistName":"Moka","groupName":"I\u0027LL-IT","imageName":"MOKA_ILLIT","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Momo","groupName":"Twice","imageName":"MOMO_TWICE","counter1":1,"counter2":3,"counterTotal":4}
     , {"artistName":"Monday","groupName":"Weeekly","imageName":"MONDAY_WEEEKLY","counter1":6,"counter2":6,"counterTotal":12}
@@ -187,7 +187,7 @@ const countersData = [
     , {"artistName":"SinB","groupName":"VIVIZ","imageName":"SINB_VIVIZ","counter1":86,"counter2":15,"counterTotal":101}
     , {"artistName":"Siyeon","groupName":"Dreamcatcher","imageName":"SIYEON_DREAMCATCHER","counter1":6,"counter2":4,"counterTotal":10}
     , {"artistName":"Siyoon","groupName":"Billlie","imageName":"SIYOON_BILLLIE","counter1":2,"counter2":2,"counterTotal":4}
-    , {"artistName":"Soeun","groupName":"Weeekly","imageName":"SOEUN_WEEEKLY","counter1":30,"counter2":16,"counterTotal":46}
+    , {"artistName":"Soeun","groupName":"Weeekly","imageName":"SOEUN_WEEEKLY","counter1":31,"counter2":16,"counterTotal":47}
     , {"artistName":"Sohee","groupName":"Alice","imageName":"SOHEE_ALICE","counter1":0,"counter2":1,"counterTotal":1}
     , {"artistName":"Sohee","groupName":"ichillin","imageName":"SOHEE_ICHILLIN","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Sohyun","groupName":"tripleS","imageName":"SOHYUN_TRIPLES","counter1":6,"counter2":6,"counterTotal":12}
