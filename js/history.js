@@ -2964,6 +2964,9 @@ const historyData = [
     , {"id":2962,"artistName":"Karina","groupName":"aespa","imageName":"KARINA_AESPA","person":1,"perDateStr":"18/12/2023","perHourStr":"21:23","perDate":20231218,"perHour":2123,"gerDateStr":"19/12/2023","gerHourStr":"03:23","gerDate":20231219,"gerHour":323}
     , {"id":2963,"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","person":1,"perDateStr":"19/12/2023","perHourStr":"00:15","perDate":20231219,"perHour":15,"gerDateStr":"19/12/2023","gerHourStr":"06:15","gerDate":20231219,"gerHour":615}
     , {"id":2964,"artistName":"Soeun","groupName":"Weeekly","imageName":"SOEUN_WEEEKLY","person":1,"perDateStr":"19/12/2023","perHourStr":"07:42","perDate":20231219,"perHour":742,"gerDateStr":"19/12/2023","gerHourStr":"13:42","gerDate":20231219,"gerHour":1342}
+    , {"id":2965,"artistName":"Kyujin","groupName":"NMIXX","imageName":"KYUJIN_NMIXX","person":1,"perDateStr":"19/12/2023","perHourStr":"12:56","perDate":20231219,"perHour":1256,"gerDateStr":"19/12/2023","gerHourStr":"18:56","gerDate":20231219,"gerHour":1856}
+    , {"id":2966,"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","person":1,"perDateStr":"19/12/2023","perHourStr":"18:42","perDate":20231219,"perHour":1842,"gerDateStr":"20/12/2023","gerHourStr":"00:42","gerDate":20231220,"gerHour":42}
+    , {"id":2967,"artistName":"Arin","groupName":"Oh My Girl","imageName":"ARIN_OHMYGIRL","person":1,"perDateStr":"19/12/2023","perHourStr":"22:19","perDate":20231219,"perHour":2219,"gerDateStr":"20/12/2023","gerHourStr":"04:19","gerDate":20231220,"gerHour":419}
     
     ];
     

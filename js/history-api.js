@@ -51,7 +51,7 @@ const filterResults = (filterCriteria) => {
 
         return artistNameFilter && groupNameFilter && dateFilter && timeFilter && personFilter;
     });
-    
+
     searchResults = historyArray.length;
 
     return historyArray.slice(filterCriteria.startIndex, filterCriteria.endIndex);
@@ -196,9 +196,11 @@ const populateHistory = () => {
 
         if (!pageTxtVal) {
             alert('Page required.');
+            return;
         }
         if (!resultsPerPageTxtVal) {
             alert('Results per page required.');
+            return;
         }
 
         const currentPage = parseInt($('#page-txt').val());
@@ -206,9 +208,11 @@ const populateHistory = () => {
 
         if (currentPage < 1) {
             alert('Page must be greater than 0.');
+            return;
         }
         if (pageSize < 1) {
             alert('Results per page must be greater than 0.');
+            return;
         }
 
         const startIndex = (currentPage - 1) * pageSize;

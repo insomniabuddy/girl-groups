@@ -195,9 +195,11 @@ const populateCounters = () => {
 
         if (!pageTxtVal) {
             alert('Page required.');
+            return;
         }
         if (!resultsPerPageTxtVal) {
             alert('Results per page required.');
+            return;
         }
 
         const currentPage = parseInt($('#page-txt').val());
@@ -205,9 +207,11 @@ const populateCounters = () => {
 
         if (currentPage < 1) {
             alert('Page must be greater than 0.');
+            return;
         }
         if (pageSize < 1) {
             alert('Results per page must be greater than 0.');
+            return;
         }
 
         const startIndex = (currentPage - 1) * pageSize;
