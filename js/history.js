@@ -2967,6 +2967,11 @@ const historyData = [
     , {"id":2965,"artistName":"Kyujin","groupName":"NMIXX","imageName":"KYUJIN_NMIXX","person":1,"perDateStr":"19/12/2023","perHourStr":"12:56","perDate":20231219,"perHour":1256,"gerDateStr":"19/12/2023","gerHourStr":"18:56","gerDate":20231219,"gerHour":1856}
     , {"id":2966,"artistName":"Miyeon","groupName":"(g)i-dle","imageName":"MIYEON_GIDLE","person":1,"perDateStr":"19/12/2023","perHourStr":"18:42","perDate":20231219,"perHour":1842,"gerDateStr":"20/12/2023","gerHourStr":"00:42","gerDate":20231220,"gerHour":42}
     , {"id":2967,"artistName":"Arin","groupName":"Oh My Girl","imageName":"ARIN_OHMYGIRL","person":1,"perDateStr":"19/12/2023","perHourStr":"22:19","perDate":20231219,"perHour":2219,"gerDateStr":"20/12/2023","gerHourStr":"04:19","gerDate":20231220,"gerHour":419}
+    , {"id":2968,"artistName":"Sullyoon","groupName":"NMIXX","imageName":"SULLYOON_NMIXX","person":2,"perDateStr":"20/12/2023","perHourStr":"01:34","perDate":20231220,"perHour":134,"gerDateStr":"20/12/2023","gerHourStr":"07:34","gerDate":20231220,"gerHour":734}
+    , {"id":2969,"artistName":"Handong","groupName":"Dreamcatcher","imageName":"HANDONG_DREAMCATCHER","person":1,"perDateStr":"20/12/2023","perHourStr":"08:50","perDate":20231220,"perHour":850,"gerDateStr":"20/12/2023","gerHourStr":"14:50","gerDate":20231220,"gerHour":1450}
+    , {"id":2970,"artistName":"Rei","groupName":"IVE","imageName":"REI_IVE","person":1,"perDateStr":"20/12/2023","perHourStr":"13:08","perDate":20231220,"perHour":1308,"gerDateStr":"20/12/2023","gerHourStr":"19:08","gerDate":20231220,"gerHour":1908}
+    , {"id":2971,"artistName":"Yooyeon","groupName":"tripleS","imageName":"YOOYEON_TRIPLES","person":1,"perDateStr":"20/12/2023","perHourStr":"22:48","perDate":20231220,"perHour":2248,"gerDateStr":"21/12/2023","gerHourStr":"04:48","gerDate":20231221,"gerHour":448}
+    , {"id":2972,"artistName":"Umji","groupName":"VIVIZ","imageName":"UMJI_VIVIZ","person":2,"perDateStr":"21/12/2023","perHourStr":"01:48","perDate":20231221,"perHour":148,"gerDateStr":"21/12/2023","gerHourStr":"07:48","gerDate":20231221,"gerHour":748}
     
     ];
     
