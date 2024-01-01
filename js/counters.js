@@ -4,14 +4,14 @@ const countersData = [
     , {"artistName":"Ahyeon","groupName":"Babymonster","imageName":"AHYEON_BABYMONSTER","counter1":0,"counter2":1,"counterTotal":1}
     , {"artistName":"Aisha","groupName":"Everglow","imageName":"AISHA_EVERGLOW","counter1":6,"counter2":0,"counterTotal":6}
     , {"artistName":"Ara","groupName":"ily:1","imageName":"ARA_ILY1","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Arin","groupName":"Oh My Girl","imageName":"ARIN_OHMYGIRL","counter1":29,"counter2":19,"counterTotal":48}
+    , {"artistName":"Arin","groupName":"Oh My Girl","imageName":"ARIN_OHMYGIRL","counter1":30,"counter2":19,"counterTotal":49}
     , {"artistName":"Asa","groupName":"Babymonster","imageName":"ASA_BABYMONSTER","counter1":0,"counter2":1,"counterTotal":1}
     , {"artistName":"Bae","groupName":"NMIXX","imageName":"BAE_NMIXX","counter1":4,"counter2":0,"counterTotal":4}
     , {"artistName":"Bahiyyih","groupName":"Kep1er","imageName":"BAHIYYIH_KEP1ER","counter1":1,"counter2":2,"counterTotal":3}
     , {"artistName":"Belle","groupName":"cignature","imageName":"BELLE_CIGNATURE","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Belle","groupName":"KISS OF LIFE","imageName":"BELLE_KISSOFLIFE","counter1":4,"counter2":1,"counterTotal":5}
     , {"artistName":"Bian","groupName":"others","imageName":"BIAN_OTHERS","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Boeun","groupName":"CLASS:y","imageName":"BOEUN_CLASSY","counter1":18,"counter2":2,"counterTotal":20}
+    , {"artistName":"Boeun","groupName":"CLASS:y","imageName":"BOEUN_CLASSY","counter1":19,"counter2":2,"counterTotal":21}
     , {"artistName":"Boni","groupName":"Dream Note","imageName":"BONI_DREAMNOTE","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Bora","groupName":"Cherry Bullet","imageName":"BORA_CHERRYBULLET","counter1":9,"counter2":3,"counterTotal":12}
     , {"artistName":"Chaeeun","groupName":"ADYA","imageName":"CHAEEUN_ADYA","counter1":2,"counter2":0,"counterTotal":2}
@@ -38,38 +38,40 @@ const countersData = [
     , {"artistName":"Dahyun","groupName":"Rocket Punch","imageName":"DAHYUN_ROCKETPUNCH","counter1":4,"counter2":2,"counterTotal":6}
     , {"artistName":"Dahyun","groupName":"tripleS","imageName":"DAHYUN_TRIPLES","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Dajeong","groupName":"Pixy","imageName":"DAJEONG_PIXY","counter1":4,"counter2":1,"counterTotal":5}
-    , {"artistName":"Danielle","groupName":"NewJeans","imageName":"DANIELLE_NEWJEANS","counter1":17,"counter2":26,"counterTotal":43}
+    , {"artistName":"Danielle","groupName":"NewJeans","imageName":"DANIELLE_NEWJEANS","counter1":19,"counter2":27,"counterTotal":46}
     , {"artistName":"Dayeon","groupName":"Kep1er","imageName":"DAYEON_KEP1ER","counter1":45,"counter2":24,"counterTotal":69}
     , {"artistName":"Dia","groupName":"Pixy","imageName":"DIA_PIXY","counter1":8,"counter2":2,"counterTotal":10}
     , {"artistName":"Dosie","groupName":"Purple Kiss","imageName":"DOSIE_PURPLEKISS","counter1":12,"counter2":0,"counterTotal":12}
-    , {"artistName":"Duna","groupName":"CSR","imageName":"DUNA_CSR","counter1":6,"counter2":1,"counterTotal":7}
+    , {"artistName":"Duna","groupName":"CSR","imageName":"DUNA_CSR","counter1":7,"counter2":1,"counterTotal":8}
     , {"artistName":"E:U","groupName":"Everglow","imageName":"EU_EVERGLOW","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"E.JI","groupName":"ichillin","imageName":"EJI_ICHILLIN","counter1":7,"counter2":3,"counterTotal":10}
     , {"artistName":"Elva","groupName":"ily:1","imageName":"ELVA_ILY1","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Eunbi","groupName":"soloist","imageName":"EUNBI_SOLOIST","counter1":16,"counter2":4,"counterTotal":20}
     , {"artistName":"Eunchae","groupName":"bugAboo","imageName":"EUNCHAE_BUGABOO","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Eunchae","groupName":"LE SSERAFIM","imageName":"EUNCHAE_LESSERAFIM","counter1":37,"counter2":6,"counterTotal":43}
+    , {"artistName":"Eunchae","groupName":"LE SSERAFIM","imageName":"EUNCHAE_LESSERAFIM","counter1":39,"counter2":6,"counterTotal":45}
     , {"artistName":"Eunha","groupName":"VIVIZ","imageName":"EUNHA_VIVIZ","counter1":43,"counter2":8,"counterTotal":51}
     , {"artistName":"Eunjo","groupName":"Dream Note","imageName":"EUNJO_DREAMNOTE","counter1":5,"counter2":0,"counterTotal":5}
     , {"artistName":"Eunseo","groupName":"WJSN","imageName":"EUNSEO_WJSN","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Exy","groupName":"WJSN","imageName":"EXY_WJSN","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Gaeul","groupName":"IVE","imageName":"GAEUL_IVE","counter1":19,"counter2":7,"counterTotal":26}
+    , {"artistName":"Gaeul","groupName":"IVE","imageName":"GAEUL_IVE","counter1":19,"counter2":8,"counterTotal":27}
     , {"artistName":"Gahyeon","groupName":"Dreamcatcher","imageName":"GAHYEON_DREAMCATCHER","counter1":7,"counter2":19,"counterTotal":26}
-    , {"artistName":"Garam","groupName":"LE SSERAFIM","imageName":"GARAM_LESSERAFIM","counter1":1,"counter2":4,"counterTotal":5}
+    , {"artistName":"Garam","groupName":"LE SSERAFIM","imageName":"GARAM_LESSERAFIM","counter1":1,"counter2":5,"counterTotal":6}
     , {"artistName":"Geumhee","groupName":"CSR","imageName":"GEUMHEE_CSR","counter1":5,"counter2":0,"counterTotal":5}
     , {"artistName":"Giselle","groupName":"aespa","imageName":"GISELLE_AESPA","counter1":1,"counter2":1,"counterTotal":2}
     , {"artistName":"Goeun","groupName":"Purple Kiss","imageName":"GOEUN_PURPLEKISS","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Gowon","groupName":"LOOSSEMBLE","imageName":"GOWON_LOOSSEMBLE","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Gyuri","groupName":"soloist","imageName":"GYURI_SOLOIST","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Haerin","groupName":"NewJeans","imageName":"HAERIN_NEWJEANS","counter1":28,"counter2":4,"counterTotal":32}
+    , {"artistName":"Haerin","groupName":"NewJeans","imageName":"HAERIN_NEWJEANS","counter1":29,"counter2":4,"counterTotal":33}
     , {"artistName":"Haeun","groupName":"Lapillus","imageName":"HAEUN_LAPILLUS","counter1":2,"counter2":1,"counterTotal":3}
     , {"artistName":"Haewon","groupName":"NMIXX","imageName":"HAEWON_NMIXX","counter1":13,"counter2":5,"counterTotal":18}
     , {"artistName":"Handong","groupName":"Dreamcatcher","imageName":"HANDONG_DREAMCATCHER","counter1":28,"counter2":5,"counterTotal":33}
     , {"artistName":"Hanni","groupName":"NewJeans","imageName":"HANNI_NEWJEANS","counter1":18,"counter2":7,"counterTotal":25}
-    , {"artistName":"Haram","groupName":"Billlie","imageName":"HARAM_BILLLIE","counter1":38,"counter2":9,"counterTotal":47}
+    , {"artistName":"Haram","groupName":"Billlie","imageName":"HARAM_BILLLIE","counter1":40,"counter2":9,"counterTotal":49}
     , {"artistName":"Haruna","groupName":"Billlie","imageName":"HARUNA_BILLLIE","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Haseul","groupName":"ARTMS","imageName":"HASEUL_ARTMS","counter1":11,"counter2":0,"counterTotal":11}
-    , {"artistName":"Heejin","groupName":"ARTMS","imageName":"HEEJIN_ARTMS","counter1":21,"counter2":14,"counterTotal":35}
+    , {"artistName":"Hayeon","groupName":"tripleS","imageName":"HAYEON_TRIPLES","counter1":1,"counter2":0,"counterTotal":1}
+    , {"artistName":"Hayoung","groupName":"fromis_9","imageName":"HAYOUNG_FROMIS9","counter1":1,"counter2":0,"counterTotal":1}
+    , {"artistName":"Heejin","groupName":"ARTMS","imageName":"HEEJIN_ARTMS","counter1":23,"counter2":15,"counterTotal":38}
     , {"artistName":"Hikaru","groupName":"Kep1er","imageName":"HIKARU_KEP1ER","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Hina","groupName":"Lightsum","imageName":"HINA_LIGHTSUM","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Hinata","groupName":"XG","imageName":"HINATA_XG","counter1":4,"counter2":0,"counterTotal":4}
@@ -85,7 +87,7 @@ const countersData = [
     , {"artistName":"Hyunjin","groupName":"LOOSSEMBLE","imageName":"HYUNJIN_LOOSSEMBLE","counter1":8,"counter2":5,"counterTotal":13}
     , {"artistName":"Ireh","groupName":"Purple Kiss","imageName":"IREH_PURPLEKISS","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Iroha","groupName":"I\u0027LL-IT","imageName":"IROHA_ILLIT","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"ISA","groupName":"Stayc","imageName":"ISA_STAYC","counter1":46,"counter2":43,"counterTotal":89}
+    , {"artistName":"ISA","groupName":"Stayc","imageName":"ISA_STAYC","counter1":50,"counter2":44,"counterTotal":94}
     , {"artistName":"J","groupName":"Stayc","imageName":"J_STAYC","counter1":27,"counter2":9,"counterTotal":36}
     , {"artistName":"Jackie","groupName":"ichillin","imageName":"JACKIE_ICHILLIN","counter1":9,"counter2":17,"counterTotal":26}
     , {"artistName":"Jaehee","groupName":"Weeekly","imageName":"JAEHEE_WEEEKLY","counter1":4,"counter2":0,"counterTotal":4}
@@ -98,38 +100,39 @@ const countersData = [
     , {"artistName":"Jiheon","groupName":"fromis_9","imageName":"JIHEON_FROMIS9","counter1":4,"counter2":1,"counterTotal":5}
     , {"artistName":"Jiho","groupName":"Oh My Girl","imageName":"JIHO_OHMYGIRL","counter1":1,"counter2":2,"counterTotal":3}
     , {"artistName":"Jihyo","groupName":"Twice","imageName":"JIHYO_TWICE","counter1":0,"counter2":1,"counterTotal":1}
-    , {"artistName":"Jimin","groupName":"CLASS:y","imageName":"JIMIN_CLASSY","counter1":27,"counter2":15,"counterTotal":42}
+    , {"artistName":"Jimin","groupName":"CLASS:y","imageName":"JIMIN_CLASSY","counter1":28,"counter2":15,"counterTotal":43}
     , {"artistName":"Jinha","groupName":"TRI.BE","imageName":"JINHA_TRIBE","counter1":1,"counter2":1,"counterTotal":2}
     , {"artistName":"Jini","groupName":"soloist","imageName":"JINI_SOLOIST","counter1":13,"counter2":1,"counterTotal":14}
     , {"artistName":"Jinny","groupName":"Secret Number","imageName":"JINNY_SECRETNUMBER","counter1":10,"counter2":2,"counterTotal":12}
     , {"artistName":"Jinsoul","groupName":"ARTMS","imageName":"JINSOUL_ARTMS","counter1":7,"counter2":8,"counterTotal":15}
     , {"artistName":"Jisoo","groupName":"Blackpink","imageName":"JISOO_BLACKPINK","counter1":19,"counter2":3,"counterTotal":22}
     , {"artistName":"Jisun","groupName":"fromis_9","imageName":"JISUN_FROMIS9","counter1":2,"counter2":0,"counterTotal":2}
-    , {"artistName":"Jiu","groupName":"Dreamcatcher","imageName":"JIU_DREAMCATCHER","counter1":22,"counter2":7,"counterTotal":29}
+    , {"artistName":"Jiu","groupName":"Dreamcatcher","imageName":"JIU_DREAMCATCHER","counter1":23,"counter2":7,"counterTotal":30}
     , {"artistName":"Jiwon","groupName":"Cherry Bullet","imageName":"JIWON_CHERRYBULLET","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Jiwon","groupName":"fromis_9","imageName":"JIWON_FROMIS9","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Jiwoo","groupName":"NMIXX","imageName":"JIWOO_NMIXX","counter1":4,"counter2":0,"counterTotal":4}
     , {"artistName":"Jiwoo","groupName":"tripleS","imageName":"JIWOO_TRIPLES","counter1":1,"counter2":1,"counterTotal":2}
     , {"artistName":"Jiyoon","groupName":"ichillin","imageName":"JIYOON_ICHILLIN","counter1":2,"counter2":1,"counterTotal":3}
     , {"artistName":"Jiyoon","groupName":"Weeekly","imageName":"JIYOON_WEEEKLY","counter1":1,"counter2":0,"counterTotal":1}
+    , {"artistName":"Joobin","groupName":"tripleS","imageName":"JOOBIN_TRIPLES","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Jooe","groupName":"Momoland","imageName":"JOOE_MOMOLAND","counter1":1,"counter2":1,"counterTotal":2}
     , {"artistName":"Joy","groupName":"Red Velvet","imageName":"JOY_REDVELVET","counter1":2,"counter2":1,"counterTotal":3}
     , {"artistName":"Juhyeon","groupName":"Lightsum","imageName":"JUHYEON_LIGHTSUM","counter1":2,"counter2":0,"counterTotal":2}
-    , {"artistName":"Julie","groupName":"KISS OF LIFE","imageName":"JULIE_KISSOFLIFE","counter1":1,"counter2":0,"counterTotal":1}
+    , {"artistName":"Julie","groupName":"KISS OF LIFE","imageName":"JULIE_KISSOFLIFE","counter1":4,"counter2":0,"counterTotal":4}
     , {"artistName":"Juri","groupName":"Rocket Punch","imageName":"JURI_ROCKETPUNCH","counter1":6,"counter2":1,"counterTotal":7}
     , {"artistName":"Karina","groupName":"aespa","imageName":"KARINA_AESPA","counter1":7,"counter2":5,"counterTotal":12}
-    , {"artistName":"Kazuha","groupName":"LE SSERAFIM","imageName":"KAZUHA_LESSERAFIM","counter1":21,"counter2":9,"counterTotal":30}
+    , {"artistName":"Kazuha","groupName":"LE SSERAFIM","imageName":"KAZUHA_LESSERAFIM","counter1":21,"counter2":10,"counterTotal":31}
     , {"artistName":"Keena","groupName":"Fifty Fifty","imageName":"KEENA_FIFTYFIFTY","counter1":0,"counter2":1,"counterTotal":1}
     , {"artistName":"Kelly","groupName":"TRI.BE","imageName":"KELLY_TRIBE","counter1":3,"counter2":4,"counterTotal":7}
     , {"artistName":"KimLip","groupName":"ARTMS","imageName":"KIMLIP_ARTMS","counter1":7,"counter2":0,"counterTotal":7}
     , {"artistName":"Kotone","groupName":"tripleS","imageName":"KOTONE_TRIPLES","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Kyujin","groupName":"NMIXX","imageName":"KYUJIN_NMIXX","counter1":8,"counter2":5,"counterTotal":13}
     , {"artistName":"Lara","groupName":"Dream Note","imageName":"LARA_DREAMNOTE","counter1":2,"counter2":0,"counterTotal":2}
-    , {"artistName":"Leeseo","groupName":"IVE","imageName":"LEESEO_IVE","counter1":27,"counter2":18,"counterTotal":45}
+    , {"artistName":"Leeseo","groupName":"IVE","imageName":"LEESEO_IVE","counter1":28,"counter2":20,"counterTotal":48}
     , {"artistName":"Lia","groupName":"ITZY","imageName":"LIA_ITZY","counter1":2,"counter2":2,"counterTotal":4}
     , {"artistName":"Lily","groupName":"NMIXX","imageName":"LILY_NMIXX","counter1":0,"counter2":1,"counterTotal":1}
     , {"artistName":"Lisa","groupName":"Blackpink","imageName":"LISA_BLACKPINK","counter1":6,"counter2":0,"counterTotal":6}
-    , {"artistName":"Liz","groupName":"IVE","imageName":"LIZ_IVE","counter1":5,"counter2":18,"counterTotal":23}
+    , {"artistName":"Liz","groupName":"IVE","imageName":"LIZ_IVE","counter1":5,"counter2":20,"counterTotal":25}
     , {"artistName":"Lola","groupName":"Pixy","imageName":"LOLA_PIXY","counter1":4,"counter2":3,"counterTotal":7}
     , {"artistName":"Lucy","groupName":"woo!ah!","imageName":"LUCY_WOOAH","counter1":1,"counter2":1,"counterTotal":2}
     , {"artistName":"Luda","groupName":"WJSN","imageName":"LUDA_WJSN","counter1":3,"counter2":0,"counterTotal":3}
@@ -148,6 +151,7 @@ const countersData = [
     , {"artistName":"Momo","groupName":"Twice","imageName":"MOMO_TWICE","counter1":1,"counter2":3,"counterTotal":4}
     , {"artistName":"Monday","groupName":"Weeekly","imageName":"MONDAY_WEEEKLY","counter1":6,"counter2":6,"counterTotal":12}
     , {"artistName":"Moon Sua","groupName":"Billlie","imageName":"MOONSUA_BILLLIE","counter1":2,"counter2":0,"counterTotal":2}
+    , {"artistName":"Nagyung","groupName":"fromis_9","imageName":"NAGYUNG_FROMIS9","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Nahyun","groupName":"primrose","imageName":"NAHYUN_PRIMROSE","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Nakyoung","groupName":"tripleS","imageName":"NAKYOUNG_TRIPLES","counter1":3,"counter2":1,"counterTotal":4}
     , {"artistName":"Nana","groupName":"woo!ah!","imageName":"NANA_WOOAH","counter1":7,"counter2":3,"counterTotal":10}
@@ -184,7 +188,7 @@ const countersData = [
     , {"artistName":"Sieun","groupName":"Stayc","imageName":"SIEUN_STAYC","counter1":20,"counter2":4,"counterTotal":24}
     , {"artistName":"Sihyeon","groupName":"CSR","imageName":"SIHYEON_CSR","counter1":8,"counter2":0,"counterTotal":8}
     , {"artistName":"Sihyeon","groupName":"Everglow","imageName":"SIHYEON_EVERGLOW","counter1":6,"counter2":0,"counterTotal":6}
-    , {"artistName":"SinB","groupName":"VIVIZ","imageName":"SINB_VIVIZ","counter1":86,"counter2":15,"counterTotal":101}
+    , {"artistName":"SinB","groupName":"VIVIZ","imageName":"SINB_VIVIZ","counter1":87,"counter2":15,"counterTotal":102}
     , {"artistName":"Siyeon","groupName":"Dreamcatcher","imageName":"SIYEON_DREAMCATCHER","counter1":6,"counter2":4,"counterTotal":10}
     , {"artistName":"Siyoon","groupName":"Billlie","imageName":"SIYOON_BILLLIE","counter1":2,"counter2":2,"counterTotal":4}
     , {"artistName":"Soeun","groupName":"Weeekly","imageName":"SOEUN_WEEEKLY","counter1":31,"counter2":16,"counterTotal":47}
@@ -205,7 +209,7 @@ const countersData = [
     , {"artistName":"Suhyeon","groupName":"Billlie","imageName":"SUHYEON_BILLLIE","counter1":4,"counter2":3,"counterTotal":7}
     , {"artistName":"Sullyoon","groupName":"NMIXX","imageName":"SULLYOON_NMIXX","counter1":9,"counter2":3,"counterTotal":12}
     , {"artistName":"Sumin","groupName":"Dream Note","imageName":"SUMIN_DREAMNOTE","counter1":7,"counter2":5,"counterTotal":12}
-    , {"artistName":"Sumin","groupName":"Stayc","imageName":"SUMIN_STAYC","counter1":26,"counter2":20,"counterTotal":46}
+    , {"artistName":"Sumin","groupName":"Stayc","imageName":"SUMIN_STAYC","counter1":27,"counter2":20,"counterTotal":47}
     , {"artistName":"Suyun","groupName":"Rocket Punch","imageName":"SUYUN_ROCKETPUNCH","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Swan","groupName":"Purple Kiss","imageName":"SWAN_PURPLEKISS","counter1":6,"counter2":0,"counterTotal":6}
     , {"artistName":"Takara","groupName":"Busters","imageName":"TAKARA_BUSTERS","counter1":1,"counter2":1,"counterTotal":2}
@@ -215,10 +219,10 @@ const countersData = [
     , {"artistName":"Vivi","groupName":"LOOSSEMBLE","imageName":"VIVI_LOOSSEMBLE","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Winter","groupName":"aespa","imageName":"WINTER_AESPA","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Wonhee","groupName":"I\u0027LL-IT","imageName":"WONHEE_ILLIT","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","counter1":66,"counter2":75,"counterTotal":141}
-    , {"artistName":"Wooyeon","groupName":"woo!ah!","imageName":"WOOYEON_WOOAH","counter1":12,"counter2":2,"counterTotal":14}
+    , {"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","counter1":66,"counter2":79,"counterTotal":145}
+    , {"artistName":"Wooyeon","groupName":"woo!ah!","imageName":"WOOYEON_WOOAH","counter1":12,"counter2":3,"counterTotal":15}
     , {"artistName":"Xiaoting","groupName":"Kep1er","imageName":"XIAOTING_KEP1ER","counter1":47,"counter2":19,"counterTotal":66}
-    , {"artistName":"Xinyu","groupName":"tripleS","imageName":"XINYU_TRIPLES","counter1":1,"counter2":2,"counterTotal":3}
+    , {"artistName":"Xinyu","groupName":"tripleS","imageName":"XINYU_TRIPLES","counter1":2,"counter2":2,"counterTotal":4}
     , {"artistName":"Yaning","groupName":"others","imageName":"YANING_OTHERS","counter1":6,"counter2":1,"counterTotal":7}
     , {"artistName":"Yeji","groupName":"ITZY","imageName":"YEJI_ITZY","counter1":13,"counter2":7,"counterTotal":20}
     , {"artistName":"Yeju","groupName":"ichillin","imageName":"YEJU_ICHILLIN","counter1":8,"counter2":0,"counterTotal":8}
@@ -235,20 +239,20 @@ const countersData = [
     , {"artistName":"Yiren","groupName":"Everglow","imageName":"YIREN_EVERGLOW","counter1":8,"counter2":8,"counterTotal":16}
     , {"artistName":"Yooa","groupName":"Oh My Girl","imageName":"YOOA_OHMYGIRL","counter1":12,"counter2":5,"counterTotal":17}
     , {"artistName":"Yoohyeon","groupName":"Dreamcatcher","imageName":"YOOHYEON_DREAMCATCHER","counter1":23,"counter2":11,"counterTotal":34}
-    , {"artistName":"Yoon","groupName":"Stayc","imageName":"YOON_STAYC","counter1":32,"counter2":1,"counterTotal":33}
-    , {"artistName":"Yooyeon","groupName":"tripleS","imageName":"YOOYEON_TRIPLES","counter1":17,"counter2":1,"counterTotal":18}
+    , {"artistName":"Yoon","groupName":"Stayc","imageName":"YOON_STAYC","counter1":34,"counter2":1,"counterTotal":35}
+    , {"artistName":"Yooyeon","groupName":"tripleS","imageName":"YOOYEON_TRIPLES","counter1":18,"counter2":1,"counterTotal":19}
     , {"artistName":"YOUI","groupName":"Dream Note","imageName":"YOUI_DREAMNOTE","counter1":3,"counter2":1,"counterTotal":4}
     , {"artistName":"Youngeun","groupName":"Kep1er","imageName":"YOUNGEUN_KEP1ER","counter1":9,"counter2":0,"counterTotal":9}
     , {"artistName":"Youngseo","groupName":"I\u0027LL-IT","imageName":"YOUNGSEO_ILLIT","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Yubin","groupName":"Oh My Girl","imageName":"YUBIN_OHMYGIRL","counter1":6,"counter2":1,"counterTotal":7}
-    , {"artistName":"Yubin","groupName":"tripleS","imageName":"YUBIN_TRIPLES","counter1":4,"counter2":1,"counterTotal":5}
+    , {"artistName":"Yubin","groupName":"tripleS","imageName":"YUBIN_TRIPLES","counter1":5,"counter2":1,"counterTotal":6}
     , {"artistName":"Yue","groupName":"Lapillus","imageName":"YUE_LAPILLUS","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Yujeong","groupName":"Brave Girls","imageName":"YUJEONG_BRAVEGIRLS","counter1":0,"counter2":1,"counterTotal":1}
-    , {"artistName":"Yujin","groupName":"IVE","imageName":"YUJIN_IVE","counter1":30,"counter2":11,"counterTotal":41}
+    , {"artistName":"Yujin","groupName":"IVE","imageName":"YUJIN_IVE","counter1":31,"counter2":11,"counterTotal":42}
     , {"artistName":"Yujin","groupName":"Kep1er","imageName":"YUJIN_KEP1ER","counter1":10,"counter2":2,"counterTotal":12}
     , {"artistName":"Yuju","groupName":"Gfriend","imageName":"YUJU_GFRIEND","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Yuki","groupName":"Purple Kiss","imageName":"YUKI_PURPLEKISS","counter1":6,"counter2":0,"counterTotal":6}
-    , {"artistName":"Yuna","groupName":"ITZY","imageName":"YUNA_ITZY","counter1":10,"counter2":3,"counterTotal":13}
+    , {"artistName":"Yuna","groupName":"ITZY","imageName":"YUNA_ITZY","counter1":11,"counter2":3,"counterTotal":14}
     , {"artistName":"Yunah","groupName":"I\u0027LL-IT","imageName":"YUNAH_ILLIT","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Yunjin","groupName":"LE SSERAFIM","imageName":"YUNJIN_LESSERAFIM","counter1":20,"counter2":4,"counterTotal":24}
     , {"artistName":"Yunkyoung","groupName":"Rocket Punch","imageName":"YUNKYOUNG_ROCKETPUNCH","counter1":6,"counter2":0,"counterTotal":6}
