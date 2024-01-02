@@ -21,7 +21,7 @@ const countersData = [
     , {"artistName":"Chaerin","groupName":"ichillin","imageName":"CHAERIN_ICHILLIN","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Chaeryeong","groupName":"ITZY","imageName":"CHAERYEONG_ITZY","counter1":5,"counter2":1,"counterTotal":6}
     , {"artistName":"Chaesol","groupName":"cignature","imageName":"CHAESOL_CIGNATURE","counter1":9,"counter2":1,"counterTotal":10}
-    , {"artistName":"Chaewon","groupName":"CLASS:y","imageName":"CHAEWON_CLASSY","counter1":13,"counter2":4,"counterTotal":17}
+    , {"artistName":"Chaewon","groupName":"CLASS:y","imageName":"CHAEWON_CLASSY","counter1":14,"counter2":4,"counterTotal":18}
     , {"artistName":"Chaewon","groupName":"LE SSERAFIM","imageName":"CHAEWON_LESSERAFIM","counter1":48,"counter2":17,"counterTotal":65}
     , {"artistName":"Chaeyeon","groupName":"soloist","imageName":"CHAEYEON_SOLOIST","counter1":3,"counter2":1,"counterTotal":4}
     , {"artistName":"Chaeyeon","groupName":"tripleS","imageName":"CHAEYEON_TRIPLES","counter1":3,"counter2":4,"counterTotal":7}
@@ -132,7 +132,7 @@ const countersData = [
     , {"artistName":"Lia","groupName":"ITZY","imageName":"LIA_ITZY","counter1":2,"counter2":2,"counterTotal":4}
     , {"artistName":"Lily","groupName":"NMIXX","imageName":"LILY_NMIXX","counter1":0,"counter2":1,"counterTotal":1}
     , {"artistName":"Lisa","groupName":"Blackpink","imageName":"LISA_BLACKPINK","counter1":6,"counter2":0,"counterTotal":6}
-    , {"artistName":"Liz","groupName":"IVE","imageName":"LIZ_IVE","counter1":5,"counter2":20,"counterTotal":25}
+    , {"artistName":"Liz","groupName":"IVE","imageName":"LIZ_IVE","counter1":5,"counter2":21,"counterTotal":26}
     , {"artistName":"Lola","groupName":"Pixy","imageName":"LOLA_PIXY","counter1":4,"counter2":3,"counterTotal":7}
     , {"artistName":"Lucy","groupName":"woo!ah!","imageName":"LUCY_WOOAH","counter1":1,"counter2":1,"counterTotal":2}
     , {"artistName":"Luda","groupName":"WJSN","imageName":"LUDA_WJSN","counter1":3,"counter2":0,"counterTotal":3}
@@ -199,6 +199,7 @@ const countersData = [
     , {"artistName":"Somi","groupName":"soloist","imageName":"SOMI_SOLOIST","counter1":4,"counter2":0,"counterTotal":4}
     , {"artistName":"Soodam","groupName":"Secret Number","imageName":"SOODAM_SECRETNUMBER","counter1":2,"counter2":0,"counterTotal":2}
     , {"artistName":"Soojin","groupName":"Weeekly","imageName":"SOOJIN_WEEEKLY","counter1":7,"counter2":0,"counterTotal":7}
+    , {"artistName":"Soomin","groupName":"tripleS","imageName":"SOOMIN_TRIPLES","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Sora","groupName":"woo!ah!","imageName":"SORA_WOOAH","counter1":2,"counter2":1,"counterTotal":3}
     , {"artistName":"Sowon","groupName":"Gfriend","imageName":"SOWON_GFRIEND","counter1":9,"counter2":10,"counterTotal":19}
     , {"artistName":"Soyeon","groupName":"(g)i-dle","imageName":"SOYEON_GIDLE","counter1":3,"counter2":1,"counterTotal":4}

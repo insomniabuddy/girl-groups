@@ -1,6 +1,9 @@
 const historyData = [
 
-    {"id":3023,"artistName":"Eunchae","groupName":"LE SSERAFIM","imageName":"EUNCHAE_LESSERAFIM","person":1,"perDateStr":"31/12/2023","perHourStr":"20:37","perDate":20231231,"perHour":2037,"gerDateStr":"01/01/2024","gerHourStr":"02:37","gerDate":20240101,"gerHour":237}
+    {"id":3026,"artistName":"Soomin","groupName":"tripleS","imageName":"SOOMIN_TRIPLES","person":1,"perDateStr":"01/01/2024","perHourStr":"21:40","perDate":20240101,"perHour":2140,"gerDateStr":"02/01/2024","gerHourStr":"03:40","gerDate":20240102,"gerHour":340}
+    , {"id":3025,"artistName":"Chaewon","groupName":"CLASS:y","imageName":"CHAEWON_CLASSY","person":1,"perDateStr":"01/01/2024","perHourStr":"19:51","perDate":20240101,"perHour":1951,"gerDateStr":"02/01/2024","gerHourStr":"01:51","gerDate":20240102,"gerHour":151}
+    , {"id":3024,"artistName":"Liz","groupName":"IVE","imageName":"LIZ_IVE","person":2,"perDateStr":"01/01/2024","perHourStr":"10:09","perDate":20240101,"perHour":1009,"gerDateStr":"01/01/2024","gerHourStr":"16:09","gerDate":20240101,"gerHour":1609}
+    , {"id":3023,"artistName":"Eunchae","groupName":"LE SSERAFIM","imageName":"EUNCHAE_LESSERAFIM","person":1,"perDateStr":"31/12/2023","perHourStr":"20:37","perDate":20231231,"perHour":2037,"gerDateStr":"01/01/2024","gerHourStr":"02:37","gerDate":20240101,"gerHour":237}
     , {"id":3022,"artistName":"ISA","groupName":"Stayc","imageName":"ISA_STAYC","person":2,"perDateStr":"31/12/2023","perHourStr":"12:54","perDate":20231231,"perHour":1254,"gerDateStr":"31/12/2023","gerHourStr":"18:54","gerDate":20231231,"gerHour":1854}
     , {"id":3021,"artistName":"ISA","groupName":"Stayc","imageName":"ISA_STAYC","person":1,"perDateStr":"31/12/2023","perHourStr":"12:53","perDate":20231231,"perHour":1253,"gerDateStr":"31/12/2023","gerHourStr":"18:53","gerDate":20231231,"gerHour":1853}
     , {"id":3020,"artistName":"ISA","groupName":"Stayc","imageName":"ISA_STAYC","person":1,"perDateStr":"31/12/2023","perHourStr":"08:27","perDate":20231231,"perHour":827,"gerDateStr":"31/12/2023","gerHourStr":"14:27","gerDate":20231231,"gerHour":1427}
