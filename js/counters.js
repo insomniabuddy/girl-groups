@@ -222,7 +222,7 @@ const countersData = [
     , {"artistName":"Vivi","groupName":"LOOSSEMBLE","imageName":"VIVI_LOOSSEMBLE","counter1":1,"counter2":0,"counterTotal":1}
     , {"artistName":"Winter","groupName":"aespa","imageName":"WINTER_AESPA","counter1":3,"counter2":0,"counterTotal":3}
     , {"artistName":"Wonhee","groupName":"I\u0027LL-IT","imageName":"WONHEE_ILLIT","counter1":1,"counter2":0,"counterTotal":1}
-    , {"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","counter1":70,"counter2":83,"counterTotal":153}
+    , {"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","counter1":71,"counter2":83,"counterTotal":154}
     , {"artistName":"Wooyeon","groupName":"woo!ah!","imageName":"WOOYEON_WOOAH","counter1":12,"counter2":4,"counterTotal":16}
     , {"artistName":"Xiaoting","groupName":"Kep1er","imageName":"XIAOTING_KEP1ER","counter1":47,"counter2":19,"counterTotal":66}
     , {"artistName":"Xinyu","groupName":"tripleS","imageName":"XINYU_TRIPLES","counter1":2,"counter2":2,"counterTotal":4}

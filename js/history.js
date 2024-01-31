@@ -1,6 +1,7 @@
 const historyData = [
 
-    {"id":3128,"artistName":"Dahyun","groupName":"tripleS","imageName":"DAHYUN_TRIPLES","person":1,"perDateStr":"31/01/2024","perHourStr":"13:31","perDate":20240131,"perHour":1331,"gerDateStr":"31/01/2024","gerHourStr":"19:31","gerDate":20240131,"gerHour":1931}
+    {"id":3129,"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","person":1,"perDateStr":"31/01/2024","perHourStr":"16:35","perDate":20240131,"perHour":1635,"gerDateStr":"31/01/2024","gerHourStr":"22:35","gerDate":20240131,"gerHour":2235}
+    , {"id":3128,"artistName":"Dahyun","groupName":"tripleS","imageName":"DAHYUN_TRIPLES","person":1,"perDateStr":"31/01/2024","perHourStr":"13:31","perDate":20240131,"perHour":1331,"gerDateStr":"31/01/2024","gerHourStr":"19:31","gerDate":20240131,"gerHour":1931}
     , {"id":3127,"artistName":"Yooyeon","groupName":"tripleS","imageName":"YOOYEON_TRIPLES","person":1,"perDateStr":"31/01/2024","perHourStr":"11:25","perDate":20240131,"perHour":1125,"gerDateStr":"31/01/2024","gerHourStr":"17:25","gerDate":20240131,"gerHour":1725}
     , {"id":3126,"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","person":2,"perDateStr":"31/01/2024","perHourStr":"01:02","perDate":20240131,"perHour":102,"gerDateStr":"31/01/2024","gerHourStr":"07:02","gerDate":20240131,"gerHour":702}
     , {"id":3125,"artistName":"Wonyoung","groupName":"IVE","imageName":"WONYOUNG_IVE","person":1,"perDateStr":"30/01/2024","perHourStr":"18:53","perDate":20240130,"perHour":1853,"gerDateStr":"31/01/2024","gerHourStr":"00:53","gerDate":20240131,"gerHour":53}
